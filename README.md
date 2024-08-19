@@ -54,11 +54,14 @@ python '.\REST API\authenticator.py
 <h2 id="acknowledgements">Acknowledgements</h2>
 <p>Resources helpful in building this project and special thanks to</p>
 
+Project_2_SafeBlink
 - [Figma design](https://www.figma.com/design/pJdXgcZaWepBh43HxOk4jE/Team-3---Live-Hackathon?node-id=1-2)
 - [Font Awesome](https://fontawesome.com)
 - [StockSnap](https://stocksnap.io/)
 - [Pexels](https://www.pexels.com/videos/)
 - [Brainster](https://brainster.co/)
+- [Project 01 - Brainster Labs](https://github.com/darkorashkov1/Brainster_Projects/tree/Project_1_Brainster_Labs)
+- [Project 02 - SafeBlink](https://github.com/darkorashkov1/Brainster_Projects/tree/Project_2_SafeBlink)
 
 <h2 id="contact">Contact</h2>
 
