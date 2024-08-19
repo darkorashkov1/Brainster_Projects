@@ -26,7 +26,7 @@ This repo contains real projects I have worked on as a student at the Brainster 
 Feel free to check them out.
 
 - [Project 01 - Brainster Labs](https://github.com/darkorashkov1/Brainster_Projects/tree/Project_1_Brainster_Labs)
-- [Project 02 - SafeBlink]()
+- [Project 02 - SafeBlink](https://github.com/darkorashkov1/Brainster_Projects/tree/Project_2_SafeBlink)
 
 <h2 id="contact">Contact</h2>
 
