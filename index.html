@@ -1,491 +1,501 @@
 <!DOCTYPE html>
 <html lang="mk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project_01</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Icons"
-    />
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/482fb1e021.js"
-      crossorigin="anonymous"
-    ></script>
-    <script defer src="./script.js"></script>
-    <script
-      defer
-      src="https://code.jquery.com/jquery-3.7.1.js"
-      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <!-- Navigation -->
-    <header>
-      <nav>
-        <a href="#"
-          ><img src="./images/_logo_brainster.png" alt="brainster"
-        /></a>
-        <div class="menu">
-          <a href="./coming_soon_page/coming_soon.html"
-            >Академија за маркетинг</a
-          >
-          <a href="./coming_soon_page/coming_soon.html"
-            >Академија за програмирање</a
-          >
-          <a href="./coming_soon_page/coming_soon.html"
-            >Академија за data science</a
-          >
-          <a href="./coming_soon_page/coming_soon.html">Академија за дизајн</a>
 
-          <a href="./employment_page/employment.html"
-            ><button>Вработи наш студент</button></a
-          >
-        </div>
-        <button class="hamburger">
-          <span class="material-icons">sort</span>
-        </button>
-      </nav>
-      <div class="mobile-menu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project_01</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/482fb1e021.js" crossorigin="anonymous"></script>
+  <script defer src="./script.js"></script>
+  <script defer src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <a href="#"><img src="./images/_logo_brainster.png" alt="brainster" /></a>
+      <div class="menu">
         <a href="./coming_soon_page/coming_soon.html">Академија за маркетинг</a>
-        <a href="./coming_soon_page/coming_soon.html"
-          >Академија за програмирање</a
-        >
-        <a href="./coming_soon_page/coming_soon.html"
-          >Академија за data science</a
-        >
+        <a href="./coming_soon_page/coming_soon.html">Академија за програмирање</a>
+        <a href="./coming_soon_page/coming_soon.html">Академија за data science</a>
         <a href="./coming_soon_page/coming_soon.html">Академија за дизајн</a>
 
-        <a href="./employment_page/employment.html"
-          ><button>Вработи наш студент</button></a
-        >
+        <a href="./employment_page/employment.html"><button>Вработи наш студент</button></a>
       </div>
-    </header>
+      <button class="hamburger">
+        <span class="material-icons">sort</span>
+      </button>
+    </nav>
+    <div class="mobile-menu">
+      <a href="./coming_soon_page/coming_soon.html">Академија за маркетинг</a>
+      <a href="./coming_soon_page/coming_soon.html">Академија за програмирање</a>
+      <a href="./coming_soon_page/coming_soon.html">Академија за data science</a>
+      <a href="./coming_soon_page/coming_soon.html">Академија за дизајн</a>
 
-    <!-- Banner -->
-    <div class="banner-container">
-      <video autoplay loop muted class="back-video">
-        <source src="./images/office_loop.mp4" type="video/mp4" />
-      </video>
-      <div class="container-text">
-        <h1>Brainster Labs</h1>
+      <a href="./employment_page/employment.html"><button>Вработи наш студент</button></a>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <div class="banner-container">
+    <video autoplay loop muted class="back-video">
+      <source src="./images/office_loop.mp4" type="video/mp4" />
+    </video>
+    <div class="container-text">
+      <h1>Brainster Labs</h1>
+    </div>
+  </div>
+
+  <!-- Filters section -->
+  <div class="filter-cards bg-dark-br">
+    <div class="filter-cards-inner">
+      <div class="filter">
+        <input type="checkbox" id="filter-marketing" name="visits" />
+        <label for="filter-marketing"><span>Проекти на студенти по академијата за маркетинг</span>
+        </label>
+      </div>
+      <div class="filter">
+        <input type="checkbox" id="filter-coding" name="visits" />
+        <label for="filter-coding"><span>Проекти на студенти по академијата за програмирање</span>
+        </label>
+      </div>
+      <div class="filter">
+        <input type="checkbox" id="filter-design" name="visits" />
+        <label for="filter-design"><span>Проекти на студенти по академијата за дизајн</span>
+        </label>
       </div>
     </div>
+  </div>
 
-    <!-- Filters section -->
-    <div class="filter-cards bg-dark-br">
-      <div class="filter-cards-inner">
-        <div class="filter">
-          <input type="checkbox" id="filter-marketing" name="visits" />
-          <label for="filter-marketing"
-            ><span>Проекти на студенти по академијата за маркетинг</span>
-          </label>
+  <!-- Cards section -->
+  <div class="container">
+    <h1 class="heading">Проекти</h1>
+
+    <div class="box-container">
+      <!-- Card 1 -->
+      <div class="box card coding">
+        <div class="image card-1">
+          <img src="./images/Code_1.jpg" alt="coding" />
         </div>
-        <div class="filter">
-          <input type="checkbox" id="filter-coding" name="visits" />
-          <label for="filter-coding"
-            ><span>Проекти на студенти по академијата за програмирање</span>
-          </label>
+        <div class="content">
+          <span>Академија за Програмирање</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
         </div>
-        <div class="filter">
-          <input type="checkbox" id="filter-design" name="visits" />
-          <label for="filter-design"
-            ><span>Проекти на студенти по академијата за дизајн</span>
-          </label>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 13 -->
+      <div class="box card marketing">
+        <div class="image card-13">
+          <img src="./images/Marketing_3.jpg" alt="coding" />
         </div>
+        <div class="content">
+          <span>Академија за Маркетинг</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 17 -->
+      <div class="box card design">
+        <div class="image card-17">
+          <img src="./images/Design_1.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Дизајн</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 12 -->
+      <div class="box card marketing">
+        <div class="image card-12">
+          <img src="./images/Marketing_2.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Маркетинг</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="box card coding">
+        <div class="image card-3">
+          <img src="./images/Code_3.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Програмирање</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="box card coding">
+        <div class="image card-4">
+          <img src="./images/Code_4.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Програмирање</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 19 -->
+      <div class="box card design">
+        <div class="image card-19">
+          <img src="./images/Design_3.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Дизајн</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 15 -->
+      <div class="box card marketing">
+        <div class="image card-15">
+          <img src="./images/Marketing_5.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Маркетинг</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="box card coding">
+        <div class="image card-5">
+          <img src="./images/Code_5.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Програмирање</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="box card coding">
+        <div class="image card-6">
+          <img src="./images/Code_6.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Програмирање</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 18 -->
+      <div class="box card design">
+        <div class="image card-18">
+          <img src="./images/Design_2.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Дизајн</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 16 -->
+      <div class="box card marketing">
+        <div class="image card-16">
+          <img src="./images/Marketing_6.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Маркетинг</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="box card coding">
+        <div class="image card-7">
+          <img src="./images/Code_7.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Програмирање</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 14 -->
+      <div class="box card marketing">
+        <div class="image card-14">
+          <img src="./images/Marketing_4.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Маркетинг</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="box card coding">
+        <div class="image card-8">
+          <img src="./images/Code_8.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Програмирање</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="box card coding">
+        <div class="image card-9">
+          <img src="./images/Code_9.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Програмирање</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 10 -->
+      <div class="box card coding">
+        <div class="image card-10">
+          <img src="./images/Code_10.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Програмирање</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 11 -->
+      <div class="box card marketing">
+        <div class="image card-11">
+          <img src="./images/Marketing_1.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Маркетинг</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="box card coding">
+        <div class="image card-2">
+          <img src="./images/Code_2.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Програмирање</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
+      </div>
+
+      <!-- Card 20 -->
+      <div class="box card design">
+        <div class="image card-20">
+          <img src="./images/Design_4.jpg" alt="coding" />
+        </div>
+        <div class="content">
+          <span>Академија за Дизајн</span>
+          <h3>Име на проектот стои овде во две линии</h3>
+          <p>
+            Краток опис во кој студентите ќе можат да опишат за што се работи
+            во проектот.
+          </p>
+          <small>Април - Октомври 2019</small>
+          <div class="btn"><a href="#">Дознај повеќе</a></div>
+        </div>
+        <a href="#" class="card-link">
+          <p>text</p>
+        </a>
       </div>
     </div>
-
-    <!-- Cards section -->
-    <div class="container">
-      <h1 class="heading">Проекти</h1>
-
-      <div class="box-container">
-        <!-- Card 1 -->
-        <div class="box card coding">
-          <div class="image card-1">
-            <img src="./images/Code_1.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Програмирање</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 13 -->
-        <div class="box card marketing">
-          <div class="image card-13">
-            <img src="./images/Marketing_3.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Маркетинг</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 17 -->
-        <div class="box card design">
-          <div class="image card-17">
-            <img src="./images/Design_1.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Дизајн</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 12 -->
-        <div class="box card marketing">
-          <div class="image card-12">
-            <img src="./images/Marketing_2.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Маркетинг</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="box card coding">
-          <div class="image card-3">
-            <img src="./images/Code_3.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Програмирање</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="box card coding">
-          <div class="image card-4">
-            <img src="./images/Code_4.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Програмирање</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 19 -->
-        <div class="box card design">
-          <div class="image card-19">
-            <img src="./images/Design_3.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Дизајн</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 15 -->
-        <div class="box card marketing">
-          <div class="image card-15">
-            <img src="./images/Marketing_5.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Маркетинг</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 5 -->
-        <div class="box card coding">
-          <div class="image card-5">
-            <img src="./images/Code_5.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Програмирање</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 6 -->
-        <div class="box card coding">
-          <div class="image card-6">
-            <img src="./images/Code_6.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Програмирање</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 18 -->
-        <div class="box card design">
-          <div class="image card-18">
-            <img src="./images/Design_2.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Дизајн</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 16 -->
-        <div class="box card marketing">
-          <div class="image card-16">
-            <img src="./images/Marketing_6.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Маркетинг</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 7 -->
-        <div class="box card coding">
-          <div class="image card-7">
-            <img src="./images/Code_7.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Програмирање</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 14 -->
-        <div class="box card marketing">
-          <div class="image card-14">
-            <img src="./images/Marketing_4.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Маркетинг</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 8 -->
-        <div class="box card coding">
-          <div class="image card-8">
-            <img src="./images/Code_8.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Програмирање</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 9 -->
-        <div class="box card coding">
-          <div class="image card-9">
-            <img src="./images/Code_9.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Програмирање</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 10 -->
-        <div class="box card coding">
-          <div class="image card-10">
-            <img src="./images/Code_10.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Програмирање</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 11 -->
-        <div class="box card marketing">
-          <div class="image card-11">
-            <img src="./images/Marketing_1.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Маркетинг</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="box card coding">
-          <div class="image card-2">
-            <img src="./images/Code_2.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Програмирање</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-
-        <!-- Card 20 -->
-        <div class="box card design">
-          <div class="image card-20">
-            <img src="./images/Design_4.jpg" alt="coding" />
-          </div>
-          <div class="content">
-            <span>Академија за Дизајн</span>
-            <h3>Име на проектот стои овде во две линии</h3>
-            <p>
-              Краток опис во кој студентите ќе можат да опишат за што се работи
-              во проектот.
-            </p>
-            <small>Април - Октомври 2019</small>
-            <div class="btn"><a href="#">Дознај повеќе</a></div>
-          </div>
-          <a href="#" class="card-link"><p>text</p></a>
-        </div>
-      </div>
-      <div class="load-more">
-        Прикажи повеќе <span class="loading"><span></span></span>
-      </div>
+    <div class="load-more">
+      Прикажи повеќе <span class="loading"><span></span></span>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <footer class="heart-container">
-      <p>
-        Изработено со <i class="fa-solid fa-heart fa-bounce fa-lg"></i> од
-        студентите на Brainster
-      </p>
-    </footer>
-  </body>
+  <!-- Footer -->
+  <footer class="heart-container">
+    <p>
+      Изработено со <i class="fa-solid fa-heart fa-bounce fa-lg"></i> од
+      студентите на Brainster
+    </p>
+  </footer>
+</body>
+
 </html>
 
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SafeBlink</title>
   <!-- External CSS -->
