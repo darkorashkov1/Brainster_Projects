@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brainster Employment</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./employment.css" />
+  <script src="https://kit.fontawesome.com/482fb1e021.js" crossorigin="anonymous"></script>
+  <script defer src="./employment.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <a href="../index.html"><img src="../images/_logo_brainster.png" alt="brainster" /></a>
+      <div class="menu">
+        <a href="../coming_soon_page/coming_soon.html">Академија за маркетинг</a>
+        <a href="../coming_soon_page/coming_soon.html">Академија за програмирање</a>
+        <a href="../coming_soon_page/coming_soon.html">Академија за data science</a>
+        <a href="../coming_soon_page/coming_soon.html">Академија за дизајн</a>
+
+        <a href="#"><button>Вработи наш студент</button></a>
+      </div>
+      <button class="hamburger">
+        <span class="material-icons">sort</span>
+      </button>
+    </nav>
+    <div class="mobile-menu">
+      <a href="../coming_soon_page/coming_soon.html">Академија за маркетинг</a>
+      <a href="../coming_soon_page/coming_soon.html">Академија за програмирање</a>
+      <a href="../coming_soon_page/coming_soon.html">Академија за data science</a>
+      <a href="../coming_soon_page/coming_soon.html">Академија за дизајн</a>
+
+      <a href="./employment.html"><button>Вработи наш студент</button></a>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <div class="main-container">
+    <div class="wrap-container">
+      <div class="form-container">
+        <div class="headline">
+          <h1>Вработи студенти</h1>
+        </div>
+        <form class="form" name="contactForm" method="post" onsubmit="return validate()">
+          <div class="form-control">
+            <label for="first-and-last-name">Име и презиме</label>
+            <input type="text" id="first-and-last-name" name="first-and-last-name" placeholder="Вашето име и презиме" />
+            <label class="errors"></label>
+          </div>
+          <div class="form-control">
+            <label for="company-name">Име на компанија</label>
+            <input type="text" id="company-name" name="company-name" placeholder="Име на вашата компанија" />
+            <label class="errors"></label>
+          </div>
+          <div class="form-control">
+            <label for="email">Контакт имејл</label>
+            <input type="text" id="email" name="email" placeholder="Контакт имејл на вашата компанија" />
+            <label class="errors"></label>
+          </div>
+          <div class="form-control">
+            <label for="contact-phone">Контакт телефон</label>
+            <input type="text" id="phone" name="phone" placeholder="Контакт телефон на вашата компанија" />
+            <label class="errors"></label>
+          </div>
+
+          <div class="form-control select-box">
+            <label for="options-container" class="students-type" id="stundents" value="">Тип на студенти</label>
+            <div class="options-container">
+              <div class="option">
+                <input type="radio" class="radio" id="marketing" name="category" />
+                <label for="marketing">Студенти од маркетинг</label>
+              </div>
+              <div class="option">
+                <input type="radio" class="radio" id="coding" name="category" />
+                <label for="coding">Студенти од програмирање</label>
+              </div>
+              <div class="option">
+                <input type="radio" class="radio" id="data-science" name="category" />
+                <label for="data-science">Студенти од data science</label>
+              </div>
+              <div class="option">
+                <input type="radio" class="radio" id="design" name="category" />
+                <label for="design">Студенти од дизајн</label>
+              </div>
+            </div>
+            <div class="selected">Изберете тип на студент</div>
+            <span class="errors"></span>
+          </div>
+
+          <div class="button-container form-control">
+            <button type="submit" onclick="openPopup()">Испрати</button>
+            <div class="popup" id="popup">
+              <img src="../images/x.png" alt="x" />
+              <h2>Пробајте повторно!</h2>
+              <p>Вашето барање не е комплетирано</p>
+              <button type="submit" value="submit" onclick="closePopup()">
+                OK
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer heart-container">
+    <p>
+      Изработено со <i class="fa-solid fa-heart fa-bounce fa-lg"></i> од
+      студентите на Brainster
+    </p>
+  </div>
+</body>
+
+</html>
