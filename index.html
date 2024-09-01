@@ -1,1218 +1,484 @@
 <!DOCTYPE html>
 <html lang="mk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project_01</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/482fb1e021.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./script.js"></script>
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav>
+        <a href="#"
+          ><img src="./images/_logo_brainster.png" alt="brainster"
+        /></a>
+        <div class="menu">
+          <a href="./coming_soon_page/coming_soon.html"
+            >Академија за маркетинг</a
+          >
+          <a href="./coming_soon_page/coming_soon.html"
+            >Академија за програмирање</a
+          >
+          <a href="./coming_soon_page/coming_soon.html"
+            >Академија за data science</a
+          >
+          <a href="./coming_soon_page/coming_soon.html">Академија за дизајн</a>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project_01</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
-  <script src="https://kit.fontawesome.com/482fb1e021.js" crossorigin="anonymous"></script>
-  <script defer src="./script.js"></script>
-  <script defer src="https://code.jquery.com/jquery-3.7.1.js"
-    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./style.css" />
-</head>
-
-<body>
-  <!-- Navigation -->
-  <header>
-    <nav>
-      <a href="#"><img src="./images/_logo_brainster.png" alt="brainster" /></a>
-      <div class="menu">
-        <a href="./coming_soon_page/coming_soon.html">Академија за маркетинг</a>
-        <a href="./coming_soon_page/coming_soon.html">Академија за програмирање</a>
-        <a href="./coming_soon_page/coming_soon.html">Академија за data science</a>
-        <a href="./coming_soon_page/coming_soon.html">Академија за дизајн</a>
-
-        <a href="./employment_page/employment.html"><button>Вработи наш студент</button></a>
-      </div>
-      <button class="hamburger">
-        <span class="material-icons">sort</span>
-      </button>
-    </nav>
-    <div class="mobile-menu">
-      <a href="./coming_soon_page/coming_soon.html">Академија за маркетинг</a>
-      <a href="./coming_soon_page/coming_soon.html">Академија за програмирање</a>
-      <a href="./coming_soon_page/coming_soon.html">Академија за data science</a>
-      <a href="./coming_soon_page/coming_soon.html">Академија за дизајн</a>
-
-      <a href="./employment_page/employment.html"><button>Вработи наш студент</button></a>
-    </div>
-  </header>
-
-  <!-- Banner -->
-  <div class="banner-container">
-    <video autoplay loop muted class="back-video">
-      <source src="./images/office_loop.mp4" type="video/mp4" />
-    </video>
-    <div class="container-text">
-      <h1>Brainster Labs</h1>
-    </div>
-  </div>
-
-  <!-- Filters section -->
-  <div class="filter-cards bg-dark-br">
-    <div class="filter-cards-inner">
-      <div class="filter">
-        <input type="checkbox" id="filter-marketing" name="visits" />
-        <label for="filter-marketing"><span>Проекти на студенти по академијата за маркетинг</span>
-        </label>
-      </div>
-      <div class="filter">
-        <input type="checkbox" id="filter-coding" name="visits" />
-        <label for="filter-coding"><span>Проекти на студенти по академијата за програмирање</span>
-        </label>
-      </div>
-      <div class="filter">
-        <input type="checkbox" id="filter-design" name="visits" />
-        <label for="filter-design"><span>Проекти на студенти по академијата за дизајн</span>
-        </label>
-      </div>
-    </div>
-  </div>
-
-  <!-- Cards section -->
-  <div class="container">
-    <h1 class="heading">Проекти</h1>
-
-    <div class="box-container">
-      <!-- Card 1 -->
-      <div class="box card coding">
-        <div class="image card-1">
-          <img src="./images/Code_1.jpg" alt="coding" />
+          <a href="./employment_page/employment.html"
+            ><button>Вработи наш студент</button></a
+          >
         </div>
-        <div class="content">
-          <span>Академија за Програмирање</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 13 -->
-      <div class="box card marketing">
-        <div class="image card-13">
-          <img src="./images/Marketing_3.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Маркетинг</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 17 -->
-      <div class="box card design">
-        <div class="image card-17">
-          <img src="./images/Design_1.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Дизајн</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 12 -->
-      <div class="box card marketing">
-        <div class="image card-12">
-          <img src="./images/Marketing_2.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Маркетинг</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="box card coding">
-        <div class="image card-3">
-          <img src="./images/Code_3.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Програмирање</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="box card coding">
-        <div class="image card-4">
-          <img src="./images/Code_4.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Програмирање</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 19 -->
-      <div class="box card design">
-        <div class="image card-19">
-          <img src="./images/Design_3.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Дизајн</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 15 -->
-      <div class="box card marketing">
-        <div class="image card-15">
-          <img src="./images/Marketing_5.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Маркетинг</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 5 -->
-      <div class="box card coding">
-        <div class="image card-5">
-          <img src="./images/Code_5.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Програмирање</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 6 -->
-      <div class="box card coding">
-        <div class="image card-6">
-          <img src="./images/Code_6.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Програмирање</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 18 -->
-      <div class="box card design">
-        <div class="image card-18">
-          <img src="./images/Design_2.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Дизајн</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 16 -->
-      <div class="box card marketing">
-        <div class="image card-16">
-          <img src="./images/Marketing_6.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Маркетинг</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 7 -->
-      <div class="box card coding">
-        <div class="image card-7">
-          <img src="./images/Code_7.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Програмирање</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 14 -->
-      <div class="box card marketing">
-        <div class="image card-14">
-          <img src="./images/Marketing_4.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Маркетинг</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 8 -->
-      <div class="box card coding">
-        <div class="image card-8">
-          <img src="./images/Code_8.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Програмирање</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 9 -->
-      <div class="box card coding">
-        <div class="image card-9">
-          <img src="./images/Code_9.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Програмирање</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 10 -->
-      <div class="box card coding">
-        <div class="image card-10">
-          <img src="./images/Code_10.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Програмирање</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 11 -->
-      <div class="box card marketing">
-        <div class="image card-11">
-          <img src="./images/Marketing_1.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Маркетинг</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="box card coding">
-        <div class="image card-2">
-          <img src="./images/Code_2.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Програмирање</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-
-      <!-- Card 20 -->
-      <div class="box card design">
-        <div class="image card-20">
-          <img src="./images/Design_4.jpg" alt="coding" />
-        </div>
-        <div class="content">
-          <span>Академија за Дизајн</span>
-          <h3>Име на проектот стои овде во две линии</h3>
-          <p>
-            Краток опис во кој студентите ќе можат да опишат за што се работи
-            во проектот.
-          </p>
-          <small>Април - Октомври 2019</small>
-          <div class="btn"><a href="#">Дознај повеќе</a></div>
-        </div>
-        <a href="#" class="card-link">
-          <p>text</p>
-        </a>
-      </div>
-    </div>
-    <div class="load-more">
-      Прикажи повеќе <span class="loading"><span></span></span>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="heart-container">
-    <p>
-      Изработено со <i class="fa-solid fa-heart fa-bounce fa-lg"></i> од
-      студентите на Brainster
-    </p>
-  </footer>
-</body>
-
-</html>
-
-<html lang="en">
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SafeBlink</title>
-  <!-- External CSS -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
-  <link rel="stylesheet" href="./404.css">
-  <link rel="stylesheet" href="./nav.css">
-  <link rel="stylesheet" href="./style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-
-<body>
-  <header class="header">
-    <div class="containerNav fixed-top navBackground">
-      <nav class="d-flex align-items-center mx-lg-5 justify-content-md-between">
-        <a href="#landingPage" title="#" class="d-inline-flex link-body-emphasis text-decoration-none">
-          <img src="./img/Safeblink_logo_purple.png" width="75" height="60" role="img" title="logo" />
-        </a>
-
-        <div class="navImg d-none d-md-flex col-md-6 mx-3 col-md-3">
-          <ul class="d-flex mb-2 mb-md-0 text align-items-md-center">
-            <li><a href="#infoPage" class="nav-link px-lg-1 mx-md-3 text">Информирај се</a></li>
-            <li><a href="#discussionBoard" class="nav-link px-lg-1 mx-md-3 text">Дискусии</a></li>
-            <li><a href="#contactPage" class="nav-link px-lg-1 mx-md-3 text">Контакт</a></li>
-            <li><a href="#profilePage" id="profileButton" class="nav-link px-lg-1 mx-md-3 d-none text">Профил</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 col-md-6 d-none d-md-block">
-          <div class="nav mb-2 mb-md-0 text align-items-center justify-content-lg-center">
-            <a href="#signIn">
-              <button type="button" id="signInButton" class="btn mx-md-2 mx-lg-4 px-lg-3 bg-transparent text">
-                <i class="fa-solid fa-user px-lg-1"></i>
-                Најави се
-              </button>
-            </a>
-            <a href="#signOut">
-              <button type="button" id="signOutButton" class="btn mx-md-2 mx-lg-4 px-lg-3 bg-transparent text d-none">
-                <i class="fa-solid fa-user px-lg-1"></i>
-                Одјави се
-              </button>
-            </a>
-            <p class="my-0">
-              <span><a href="#" class="text-decoration-none text">MK</a></span> |
-              <span><a href="#" class="text-decoration-none text">AL</a></span>
-              <i class="fa-solid fa-magnifying-glass fa-lg text mx-4"></i>
-            </p>
-          </div>
-        </div>
-        <button class="hamburger d-md-none">
-          <span class="material-icons">menu</span>
+        <button class="hamburger">
+          <span class="material-icons">sort</span>
         </button>
       </nav>
-      <!-- Mobile menu -->
-      <div class="mobile-menu displayNone" id="mobile-menu">
-        <a href="#landingPage" class="nav-link px-2 mx-3 text">Информирај се</a>
-        <a href="#discussionBoard" class="nav-link px-2 mx-3 text">Дискусии</a>
-        <a href="#contactPage" class="nav-link px-2 mx-3 text">Контакт</a>
-        <a href="#profilePage" id="profileButtonMobile" class="nav-link px-2 mx-3 d-none text">Профил</a>
-        <a href="#signIn" class="nav-link px-2 mx-3 text">
-          <button type="button" class="btn text bg-transparent d-none" id="logInBtnMobile">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill"
-              viewBox="0 0 16 16">
-              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
-            </svg>
-            Најави се
-          </button>
-        </a>
-        <a href="#signOut" class="nav-link px-2 mx-3 text">
-          <button type="button" class="btn text bg-transparent d-none" id="logOutBtnMobile">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill"
-              viewBox="0 0 16 16">
-              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
-            </svg>
-            Одјави се
-          </button>
-        </a>
-      </div>
-    </div>
-  </header>
+      <div class="mobile-menu">
+        <a href="./coming_soon_page/coming_soon.html">Академија за маркетинг</a>
+        <a href="./coming_soon_page/coming_soon.html"
+          >Академија за програмирање</a
+        >
+        <a href="./coming_soon_page/coming_soon.html"
+          >Академија за data science</a
+        >
+        <a href="./coming_soon_page/coming_soon.html">Академија за дизајн</a>
 
-  <section id="landingPage">
-    <div class="banner-container mb-4">
-      <video loop muted class="back-video" poster="img/video_poster.jpg" id="landingPageVideo">
-        <source src="./img/Woman_hand_typing_on_keyboard.mp4" type="video/mp4" />
+        <a href="./employment_page/employment.html"
+          ><button>Вработи наш студент</button></a
+        >
+      </div>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner-container">
+      <video autoplay loop muted class="back-video">
+        <source src="./images/office_loop.mp4" type="video/mp4" />
       </video>
-      <button title="playButton" class="play-button-landing" id="playButtonLanding">
-        <i class="fa-solid fa-play fa-2xl"></i>
-      </button>
-    </div>
-    <div class="container my-5">
-      <div class="headline my-5 headline_text">
-        Информирај се и заштити се
-      </div>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-        <div class="col mb-4">
-          <div class="bg-needToKnow py-4 card h-100 p-3">
-            <div class="d-flex card-header h-30 noBorder bg-transparent">
-              <h2 class="my-0 font-weight-bold text-left">
-                Научи сè што треба да знаеш
-              </h2>
-              <img src="./img/img_eye-lock.png" alt="eye" class="cardLogos p-1 m-2" height="80px" width="80px" />
-            </div>
-            <div class="card-body h-40">
-              <p class="paragraph mt-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio,
-                consequatur. Debitis sed necessitatibus pariatur repellendus,
-                voluptatem rem temporibus, rerum ullam nisi nam esse. Expedita,
-                reprehenderit at. Molestias atque a nihil fugiat sunt ratione
-                excepturi saepe, neque nam aspernatur quae! Id, atque. Ex eius
-                distinctio aut. Ad quidem hic nisi molestias?
-              </p>
-            </div>
-            <div class="card-footer h-20 noBorder bg-transparent">
-              <a href="#infoPage"><button type="button" class="w-100 btn btn-md border-0 shadow">
-                  Дознај повеќе
-                </button></a>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="bg-discussion py-4 card h-100 p-3">
-            <div class="d-flex card-header h-30 noBorder bg-transparent">
-              <h2 class="my-0 font-weight-bold text-left">
-                Вклучи се во дискусија
-              </h2>
-              <img src="./img/img_encryption-check.png" alt="eye" class="cardLogos p-1 m-2" height="80px"
-                width="80px" />
-            </div>
-            <div class="card-body h-40">
-              <p class="paragraph mt-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio,
-                consequatur. Debitis sed necessitatibus pariatur repellendus,
-                voluptatem rem temporibus, rerum ullam nisi nam esse. Expedita,
-                reprehenderit at. Molestias atque a nihil fugiat sunt ratione
-                excepturi saepe, neque nam aspernatur quae! Id, atque. Ex eius
-                distinctio aut. Ad quidem hic nisi molestias?
-              </p>
-            </div>
-            <div class="card-footer h-20 noBorder bg-transparent">
-              <a href="#discussionBoard"><button type="button" class="w-100 btn btn-md border-0 shadow">
-                  Дознај повеќе
-                </button></a>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="bg-progress py-4 card h-100 p-3">
-            <div class="d-flex card-header h-30 noBorder bg-transparent">
-              <h2 class="my-0 font-weight-bold text-left">
-                Следи го својот напредок
-              </h2>
-              <img src="./img/img_user-access-control.png" alt="eye" class="cardLogos p-1 m-2" height="80px"
-                width="80px" />
-            </div>
-            <div class="card-body h-40">
-              <p class="paragraph mt-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio,
-                consequatur. Debitis sed necessitatibus pariatur repellendus,
-                voluptatem rem temporibus, rerum ullam nisi nam esse. Expedita,
-                reprehenderit at. Molestias atque a nihil fugiat sunt ratione
-                excepturi saepe, neque nam aspernatur quae! Id, atque. Ex eius
-                distinctio aut. Ad quidem hic nisi molestias?
-              </p>
-            </div>
-            <div class="card-footer h-20 noBorder bg-transparent">
-              <a href="#profilePage"><button type="button" class="w-100 btn btn-md border-0 shadow">
-                  Дознај повеќе
-                </button></a>
-            </div>
-          </div>
-        </div>
+      <div class="container-text">
+        <h1>Brainster Labs</h1>
       </div>
     </div>
-  </section>
 
-  <section id="infoPage">
+    <!-- Filters section -->
+    <div class="filter-cards bg-dark-br">
+      <div class="filter-cards-inner">
+        <div class="filter">
+          <input type="checkbox" id="filter-marketing" name="visits" />
+          <label for="filter-marketing"
+            ><span>Проекти на студенти по академијата за маркетинг</span>
+          </label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" id="filter-coding" name="visits" />
+          <label for="filter-coding"
+            ><span>Проекти на студенти по академијата за програмирање</span>
+          </label>
+        </div>
+        <div class="filter">
+          <input type="checkbox" id="filter-design" name="visits" />
+          <label for="filter-design"
+            ><span>Проекти на студенти по академијата за дизајн</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards section -->
     <div class="container">
-      <div class="wrapper">
-        <div class="container">
-          <div class="headline headline_text py-4">
-            Сè што треба да знаеш
-          </div>
-          <div class="container mb-4">
-            <div class="wrapper">
-              <!-- Carousel -->
-              <div id="carouselExampleIndicators" class="carousel slide d-md-none" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="d-flex justify-content-center">
-                      <a href="#" class="btn-group text">Видеа</a>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                      <a href="#" class="btn-group text">Упатства</a>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                      <a href="#" class="btn-group text">Статии</a>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="prev">
-                  <span class="" aria-hidden="true"><img src="./img/arrow_left.png" alt="left"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="next">
-                  <span aria-hidden="true"><img src="./img/arrow_right.png" alt="right"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+      <h1 class="heading">Проекти</h1>
 
-              <div class="d-none d-md-flex flex-wrap justify-content-evenly py-4">
-                <a href="#" class="btn-group text">Видеа</a>
-                <a href="#" class="btn-group text">Упатства</a>
-                <a href="#" class="btn-group text">Статии</a>
-              </div>
-            </div>
+      <div class="box-container">
+        <!-- Card 1 -->
+        <div class="box card coding">
+          <div class="image card-1">
+            <img src="./images/Code_1.jpg" alt="coding" />
           </div>
-
-          <div class="d-none d-md-block">
-            <div class="d-flex flex-wrap gap-3 justify-content-center py-4">
-              <div class="badges btn" id="Најгледани">Најгледани</div>
-              <div class="badges btn" id="Актуелно">Актуелно</div>
-              <div class="badges btn" id="Најнови">Најнови</div>
-              <div class="badges btn" id="Азбучен">Азбучен редослед</div>
-              <div class="badges btn" id="Интернет">Интернет видеа</div>
-              <div class="badges btn" id="Приватност">Приватност</div>
-              <div class="badges btn" id="Опасност">Опасност</div>
-            </div>
+          <div class="content">
+            <span>Академија за Програмирање</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
           </div>
-
-          <!-- Badges for mobile view -->
-          <div class="d-md-none">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="d-flex flex-wrap gap-3 justify-content-center py-4">
-                    <div class="badges btn" id="Најгледани">Најгледани</div>
-                    <div class="badges btn" id="Актуелно">Актуелно</div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-flex flex-wrap gap-3 justify-content-center py-4">
-                    <div class="badges btn" id="Најнови">Најнови</div>
-                    <div class="badges btn" id="Азбучен">Азбучен редослед</div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-flex flex-wrap gap-3 justify-content-center py-4">
-                    <div class="badges btn" id="Интернет">Интернет видеа</div>
-                    <div class="badges btn" id="Приватност">Приватност</div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-flex flex-wrap gap-3 justify-content-center py-4">
-                    <div class="badges btn" id="Опасност">Опасност</div>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" title="btn" type="button"
-                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"></button>
-              <button class="carousel-control-next" title="btn" type="button"
-                data-bs-target="#carouselExampleIndicators" data-bs-slide="next"></button>
-            </div>
-          </div>
+          <a href="#" class="card-link"><p>text</p></a>
         </div>
-        <div class="container my-4">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
-            <!-- Cards here dynamically -->
+
+        <!-- Card 13 -->
+        <div class="box card marketing">
+          <div class="image card-13">
+            <img src="./images/Marketing_3.jpg" alt="coding" />
           </div>
+          <div class="content">
+            <span>Академија за Маркетинг</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 17 -->
+        <div class="box card design">
+          <div class="image card-17">
+            <img src="./images/Design_1.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Дизајн</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 12 -->
+        <div class="box card marketing">
+          <div class="image card-12">
+            <img src="./images/Marketing_2.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Маркетинг</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="box card coding">
+          <div class="image card-3">
+            <img src="./images/Code_3.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Програмирање</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="box card coding">
+          <div class="image card-4">
+            <img src="./images/Code_4.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Програмирање</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 19 -->
+        <div class="box card design">
+          <div class="image card-19">
+            <img src="./images/Design_3.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Дизајн</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 15 -->
+        <div class="box card marketing">
+          <div class="image card-15">
+            <img src="./images/Marketing_5.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Маркетинг</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="box card coding">
+          <div class="image card-5">
+            <img src="./images/Code_5.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Програмирање</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="box card coding">
+          <div class="image card-6">
+            <img src="./images/Code_6.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Програмирање</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 18 -->
+        <div class="box card design">
+          <div class="image card-18">
+            <img src="./images/Design_2.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Дизајн</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 16 -->
+        <div class="box card marketing">
+          <div class="image card-16">
+            <img src="./images/Marketing_6.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Маркетинг</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="box card coding">
+          <div class="image card-7">
+            <img src="./images/Code_7.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Програмирање</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 14 -->
+        <div class="box card marketing">
+          <div class="image card-14">
+            <img src="./images/Marketing_4.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Маркетинг</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="box card coding">
+          <div class="image card-8">
+            <img src="./images/Code_8.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Програмирање</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="box card coding">
+          <div class="image card-9">
+            <img src="./images/Code_9.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Програмирање</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 10 -->
+        <div class="box card coding">
+          <div class="image card-10">
+            <img src="./images/Code_10.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Програмирање</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 11 -->
+        <div class="box card marketing">
+          <div class="image card-11">
+            <img src="./images/Marketing_1.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Маркетинг</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="box card coding">
+          <div class="image card-2">
+            <img src="./images/Code_2.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Програмирање</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
+        </div>
+
+        <!-- Card 20 -->
+        <div class="box card design">
+          <div class="image card-20">
+            <img src="./images/Design_4.jpg" alt="coding" />
+          </div>
+          <div class="content">
+            <span>Академија за Дизајн</span>
+            <h3>Име на проектот стои овде во две линии</h3>
+            <p>
+              Краток опис во кој студентите ќе можат да опишат за што се работи
+              во проектот.
+            </p>
+            <small>Април - Октомври 2019</small>
+            <div class="btn"><a href="#">Дознај повеќе</a></div>
+          </div>
+          <a href="#" class="card-link"><p>text</p></a>
         </div>
       </div>
+      <div class="load-more">
+        Прикажи повеќе <span class="loading"><span></span></span>
+      </div>
+      <div class="loaded"></div>
     </div>
-    <!-- Modal Structure -->
-    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true"
-      data-bs-backdrop="static">
-      <div class="modal-dialog modal-dialog-centered modal-xl">
-        <div class="modal-content modal-content-video">
-          <div class="modal-body d-flex">
-            <div class="comment-section w-50 pe-4">
-              <h5 id="videoModalLabel" class="mb-3"></h5>
-              <p id="videoDescription" class="mb-3"></p>
-              <h6>Comments</h6>
-              <div id="comments" class="mb-3">
-                <!-- Comment section will be dynamically updated -->
-              </div>
-              <div class="card mb-4 bg-blank">
-                <div class="mx-3 mt-4">
-                  <input class="form-control bg-transparent rounded-0 border-0 p-0 border-bottom border-dark mx-0"
-                    id="commentInput" type="text" placeholder="Сподели искуство…">
-                </div>
-                <div class="d-flex justify-content-between align-items-center p-3">
-                  <div class="d-flex media align-items-center">
-                    <div><img src="./img/Discussion Board/Person_0.png" class="d-block ui-w-40 rounded-circle" alt="">
-                    </div>
-                    <div class="mx-3">Име Презиме</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="video-section w-50 position-relative">
-              <video controls class="w-100" id="modalVideo">
-                <source src="" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-              <button title="playButton" class="playVideoTag" id="modalPlayButton">
-                <i class="fa-solid fa-play fa-2xl"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="signIn">
-    <div class="container h-100 my-5">
-      <div class="row d-flex justify-content-between h-100 mx-4">
-        <div class="headline_text py-4 mb-5">
-          Придружи ни се
-        </div>
-        <div class="col-md-6 col-lg-5 col-xl-5 offset-xl-3 mx-0 text-center">
-          <form class="signInForm">
-            <div class="row px-2">
-              <a data-mdb-ripple-init class="btn btn-primary btn-lg btn-block mb-4 text-start mx-0" href="#!"
-                role="button">
-                <i class="fa-brands fa-google fa-lg p-2 mx-0"></i> Продолжи со Google
-              </a>
-              <a data-mdb-ripple-init class="btn btn-primary btn-lg btn-block mb-4 text-start mx-0" href="#!"
-                role="button">
-                <i class="fa-brands fa-apple fa-lg p-2 mx-0"></i> Продолжи со Apple
-              </a>
-              <a data-mdb-ripple-init class="btn btn-primary btn-lg btn-block mb-4 text-start mx-0" href="#!"
-                role="button">
-                <i class="fa-brands fa-tiktok fa-lg p-2 mx-0"></i> Продолжи со TikTok
-              </a>
-            </div>
-
-            <div class="divider d-flex align-items-center my-4">
-              <p class="text-center fw-bold mx-3 mb-0 text-white">или</p>
-            </div>
-            <!-- Email input -->
-            <div data-mdb-input-init class="form-outline mb-4 text-start">
-              <label class="form-label text-light" for="userName">Користичко име*</label>
-              <input type="text" id="userName" class="form-control form-control-lg" placeholder="Username" />
-            </div>
-
-            <!-- Password input -->
-            <div data-mdb-input-init class="passwordContainer form-outline mb-4 text-start">
-              <label class="form-label text-light" for="password">Лозинка*</label>
-              <input type="password" id="password" class="form-control form-control-lg" placeholder="Password" />
-              <i class="fa-regular fa-eye-slash fa-lg mx-0" id="showPassword"></i>
-            </div>
-
-            <div class="d-flex justify-content-between align-items-center mb-4">
-              <!-- Checkbox -->
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
-                <label class="form-check-label text-light" for="form1Example3"> Запомни ме </label>
-              </div>
-              <a href="#!" class="text-decoration-none text-light">Ја заборави лозинката?</a>
-            </div>
-
-            <!-- Submit button -->
-            <button type="submit" id="signInModalBtn" class="btn btn-light px-5 logInBtn">Најави се</button>
-          </form>
-        </div>
-        <div class="col-md-6 col-lg-6 col-xl-6 align-content-md-center">
-          <img src="./img/SignInIMG.png" class="img-fluid figure-img" alt="Phone image">
-        </div>
-      </div>
-      <!-- Modal Popup -->
-      <div id="myModalWelcome" class="modal">
-        <div class="modal-content-welcome">
-          <div class="modal-body">
-            <div class="modalContent d-flex flex-column">
-              <div class="modalHeader mb-3">
-                <h1>Добредојде</h1>
-              </div>
-              <div class="modalParagraph mb-3">
-                <p>Успешно креиран профил</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-center">
-              <button type="button" class="btn btn-secondary close modalBtnWelcome" data-dismiss="modal">Продолжи кон
-                Safeblink</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="discussionBoard">
-    <div class="container pt-4">
-      <div class="wrapper mx-5">
-        <div class="headline my-5 headline_text">Табела за дискусии</div>
-        <div class="row fade-effect" id="discussionCardsRow">
-          <!-- User share experience card, initially hidden -->
-          <div class="card mb-4 bg-blank user-share-card col-md-6 col-lg-4 d-none">
-            <div class="mx-3 mt-4">
-              <input class="form-control bg-transparent rounded-0 border-0 p-0 border-bottom border-dark mx-0"
-                type="text" placeholder="Сподели искуство…">
-            </div>
-            <div class="d-flex justify-content-between align-items-center p-3">
-              <div class="d-flex media align-items-center">
-                <div><img src="./img/Discussion Board/Person_0.png" class="d-block ui-w-40 rounded-circle" alt=""></div>
-                <div class="mx-3">Име Презиме</div>
-              </div>
-            </div>
-          </div>
-          <!-- Discussion cards will be inserted here dynamically -->
-        </div>
-      </div>
-      <div id="seeMore"><a href="#" class="text-decoration-none text-reset"><i class="fa-solid fa-plus"></i><span
-            class="mx-3">Види повеќе</span></a></div>
-    </div>
-  </section>
-
-  <section id="contactPage">
-    <div class="container mb-5">
-      <div class="wrapper mb-5">
-        <div class="headline my-5 headline_text">Контакт</div>
-        <div class="my-4">
-          <p class="h2 text my-4">Побарај стручна помош</p>
-          <div class="contactCard">
-            <div class="card-body d-flex flex-column flex-md-row">
-              <div class="w-100 w-md-75 mb-3 mb-md-0">
-                <h5 class="card-title mt-1 mb-4">Агенција за заштита на личните податоци</h5>
-                <p class="card-text">Лорем ипсум е едноставен модел на текст кој се користел во печатарската индустрија.
-                  Лорем ипсум бил индустриски стандард кој се користел како модел уште пред 1500 години, кога непознат
-                  печатар зел кутија
-                  со букви и ги сложил на таков начин за да направи примерок на книга.</p>
-              </div>
-              <div class="buttonContact w-100 w-md-25">
-                <a href="#" class="text-reset"><button class="btn-contact">Линк</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="my-4">
-          <p class="h2 text my-4">Невладини организации</p>
-          <div class="contactCard mb-4">
-            <div class="card-body d-flex flex-column flex-md-row">
-              <div class="w-100 w-md-75 mb-3 mb-md-0">
-                <h5 class="card-title mt-1 mb-4">NGO 1</h5>
-                <p class="card-text">Лорем ипсум е едноставен модел на текст кој се користел во печатарската индустрија.
-                  Лорем ипсум бил индустриски стандард кој се користел како модел уште пред 1500 години, кога непознат
-                  печатар зел кутија
-                  со букви и ги сложил на таков начин за да направи примерок на книга.</p>
-              </div>
-              <div class="buttonContact w-100 w-md-25">
-                <a href="#" class="text-reset"><button class="btn-contact">Линк</button></a>
-              </div>
-            </div>
-          </div>
-          <div class="contactCard mb-4">
-            <div class="card-body d-flex flex-column flex-md-row">
-              <div class="w-100 w-md-75 mb-3 mb-md-0">
-                <h5 class="card-title mt-1 mb-4">NGO 2</h5>
-                <p class="card-text">Лорем ипсум е едноставен модел на текст кој се користел во печатарската индустрија.
-                  Лорем ипсум бил индустриски стандард кој се користел како модел уште пред 1500 години, кога непознат
-                  печатар зел кутија
-                  со букви и ги сложил на таков начин за да направи примерок на книга.</p>
-              </div>
-              <div class="buttonContact w-100 w-md-25">
-                <a href="#" class="text-reset"><button class="btn-contact">Линк</button></a>
-              </div>
-            </div>
-          </div>
-          <div class="contactCard mb-4">
-            <div class="card-body d-flex flex-column flex-md-row">
-              <div class="w-100 w-md-75 mb-3 mb-md-0">
-                <h5 class="card-title mt-1 mb-4">NGO 3</h5>
-                <p class="card-text">Лорем ипсум е едноставен модел на текст кој се користел во печатарската индустрија.
-                  Лорем ипсум бил индустриски стандард кој се користел како модел уште пред 1500 години, кога непознат
-                  печатар зел кутија
-                  со букви и ги сложил на таков начин за да направи примерок на книга.</p>
-              </div>
-              <div class="buttonContact w-100 w-md-25">
-                <a href="#" class="text-reset"><button class="btn-contact">Линк</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="profilePage">
-    <div class="container">
-      <div class="row align-items-center mx-lg-2">
-        <!-- Profile Picture and Headline -->
-        <div class=" headline_text my-4">Профил</div>
-        <div class="col-lg-4">
-          <div class="image-overlay text-center">
-            <img src="./img/Profile_page/profile_pic.png" alt="profilePicture" class="img-fluid">
-            <button type="submit" class="editOverlayImg">Промени</button>
-          </div>
-        </div>
-        <!-- Inputs -->
-        <div class="col-lg-8 my-5 px-lg-5">
-          <div class="row">
-            <!-- First Column -->
-            <div class="col-md-6">
-              <div data-mdb-input-init class="mb-4">
-                <label class="text-light mb-2" for="userName">Име и презиме / Користичко име</label>
-                <div class="input-wrapper">
-                  <input type="text" id="userNameEdit" class="form-control border-0" placeholder="" />
-                  <button type="submit" class="editOverlay">Промени</button>
-                </div>
-              </div>
-              <div data-mdb-input-init class="mb-4">
-                <label class="text-light mb-2" for="email">Email адреса</label>
-                <div class="input-wrapper">
-                  <input type="email" id="email" class="form-control border-0" placeholder="" />
-                  <button type="submit" class="editOverlay">Промени</button>
-                </div>
-              </div>
-              <div data-mdb-input-init class="mb-4">
-                <label class="text-light mb-2" for="password">Лозинка</label>
-                <div class="input-wrapper">
-                  <input type="password" id="passwordEdit" class="form-control border-0" placeholder="* * * * * * *" />
-                  <button type="submit" class="editOverlay">Промени</button>
-                </div>
-              </div>
-            </div>
-            <!-- Second Column -->
-            <div class="col-md-6">
-              <div data-mdb-input-init class="mb-4">
-                <label class="text-light mb-2" for="birthYear">Година на раѓање</label>
-                <div class="input-wrapper">
-                  <input type="text" id="birthYear" class="form-control border-0" placeholder="2007" />
-                  <button type="submit" class="editOverlay">Промени</button>
-                </div>
-              </div>
-              <div data-mdb-input-init class="mb-4">
-                <label class="text-light mb-2" for="gender">Пол</label>
-                <div class="input-wrapper">
-                  <input type="text" id="gender" class="form-control border-0" placeholder="машки" />
-                  <button type="submit" class="editOverlay">Промени</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="row d-flex justify-content-between text-light my-3">
-            <div class="col-6 h5">Следи го својот Safeblink напредок!</div>
-            <div class="col-6 text-end h5">Моментално ниво: Лорем ипсум</div>
-          </div>
-          <div class="progress-container my-3">
-            <div class="progress-bar" role="progressbar" title="progressBar" aria-valuemax="100"></div>
-          </div>
-          <!-- Badges -->
-          <div class="row justify-content-center mt-5">
-            <div class="col-lg-2 col-md-4 col-sm-6 col-6 text-center">
-              <div class="badge-container" id="badge_1">
-                <img src="./img/Profile_page/joined.png" alt="Badge 1" class="badgeImg">
-                <div class="colorOverlay"></div>
-                <span class="badge-text">Се придружи!</span>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 col-6 text-center">
-              <div class="badge-container" id="badge_2">
-                <img src="./img/Profile_page/watched_videos_5.png" alt="Badge 2" class="badgeImg">
-                <div class="colorOverlay"></div>
-                <span class="badge-text">Изгледани 5 видеа</span>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 col-6 text-center">
-              <div class="badge-container" id="badge_3">
-                <img src="./img/Profile_page/watched_videos_10.png" alt="Badge 3" class="badgeImg">
-                <div class="colorOverlay"></div>
-                <span class="badge-text">Изгледани 10 видеа</span>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 col-6 text-center">
-              <div class="badge-container" id="badge_4">
-                <img src="./img/Profile_page/watched_videos_20.png" alt="Badge 4" class="badgeImg">
-                <div class="colorOverlay"></div>
-                <span class="badge-text">Изгледани 20 видеа</span>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 col-6 text-center">
-              <div class="badge-container" id="badge_5">
-                <img src="./img/Profile_page/discussion_activity.png" alt="Badge 5" class="badgeImg">
-                <div class="colorOverlay"></div>
-                <span class="badge-text">Активност во дискусија</span>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 col-6 text-center">
-              <div class="badge-container" id="badge_6">
-                <img src="./img/Profile_page/read_20.png" alt="Badge 6" class="badgeImg">
-                <div class="colorOverlay"></div>
-                <span class="badge-text">Прочитани 10 статии</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
-
-  <section id="notFoundPage" class="displayNone vh-100">
-    <svg width="380px" height="500px" viewBox="0 0 837 1045" version="1.1" xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <path d="M353,9 L626.664028,170 L626.664028,487 L353,642 L79.3359724,487 L79.3359724,170 L353,9 Z"
-          id="Polygon-1" stroke="#007FB2" stroke-width="6" sketch:type="MSShapeGroup"></path>
-        <path d="M78.5,529 L147,569.186414 L147,648.311216 L78.5,687 L10,648.311216 L10,569.186414 L78.5,529 Z"
-          id="Polygon-2" stroke="#EF4A5B" stroke-width="6" sketch:type="MSShapeGroup"></path>
-        <path d="M773,186 L827,217.538705 L827,279.636651 L773,310 L719,279.636651 L719,217.538705 L773,186 Z"
-          id="Polygon-3" stroke="#795D9C" stroke-width="6" sketch:type="MSShapeGroup"></path>
-        <path d="M639,529 L773,607.846761 L773,763.091627 L639,839 L505,763.091627 L505,607.846761 L639,529 Z"
-          id="Polygon-4" stroke="#F2773F" stroke-width="6" sketch:type="MSShapeGroup"></path>
-        <path d="M281,801 L383,861.025276 L383,979.21169 L281,1037 L179,979.21169 L179,861.025276 L281,801 Z"
-          id="Polygon-5" stroke="#36B455" stroke-width="6" sketch:type="MSShapeGroup"></path>
-      </g>
-    </svg>
-    <div class="message-box">
-      <h1>404</h1>
-      <p>Page not found</p>
-      <div class="buttons-con">
-        <div class="action-link-wrap">
-          <a onclick="history.back(-1)" class="link-button link-back-button">Go Back</a>
-          <a href="#landingPage" class="link-button">Go to Home Page</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="bg-footer">
-    <div class="container text-white">
-      <footer
-        class="row row-cols-1 row-cols-sm-1 row-cols-md-3 py-sm-5 py-lg-3 justify-content-lg-between align-items-sm-center">
-        <div class="col mb-md-6">
-          <div class="">
-            <div class="d-flex justify-content-between mb-4 mt-3">
-              <div class="logo">
-                <a href="#" id="SafeBlink"><img src="./img/Vector.png" alt="logo" width="80px" height="60px"></a>
-              </div>
-              <div class="mkAl">
-                <p class="my-0 d-flex flex-row justify-content-end mb-md-4 mb-sm-0 d-md-none d-sm-block">
-                  <span class="mx-2"><a href="#" class="text-decoration-none text-white">MK</a></span>
-                  |
-                  <span class="mx-2"><a href="#" class="text-decoration-none text-white">AL</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="contact-info mb-4">
-              <p class="text-white mb-2">International Foundation for Electoral Systems (IFES)</p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-telephone"
-                viewBox="0 0 18 18">
-              </svg> +389-2-312-2288
-              <br>
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-envelope"
-                viewBox="0 0 18 18">
-              </svg> ifes.nmk@ifes.org
-            </div>
-          </div>
-        </div>
-        <div class="col mb-sm-6 mb-md-0 px-lg-5 mb-4 text-md-center text-lg-start">
-          <ul class="nav flex-column text-white">
-            <li class="nav-item mb-2">
-              <a href="#infoPage" class="nav-link p-0 text-white">Информирај се</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#discussionBoard" class="nav-link p-0 text-white">Дискусии</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#contactPage" class="nav-link p-0 text-white">Контакт - корисни линкови</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-white">Закон за заштита на личните податоци</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col mb-6">
-          <p class="footer-interface d-md-block d-sm-none text-md-center text-lg-end">
-            <span class="mx-2"><a href="#" class="text-decoration-none text-white">MK</a></span> |
-            <span class="mx-2"><a href="#" class="text-decoration-none text-white">AL</a></span>
-          </p>
-          <div class="nav footer-social flex-md-row justify-content-md-between justify-content-lg-end">
-            <a href="#" title="facebook"><i
-                class="fa-brands fa-facebook-square text-white fa-lg nav-item mx-3 mb-4"></i></a>
-            <a href="#" title="instagram"><i class="fa-brands fa-instagram text-white fa-lg nav-item mx-3 mb-4"></i></a>
-            <a href="#" title="youtube"><i class="fa-brands fa-youtube text-white fa-lg nav-item mx-3 mb-4"></i></a>
-            <a href="#" title="tiktok"><i class="fa-brands fa-tiktok text-white fa-lg nav-item mx-3 mb-4"></i></a>
-            <p class="text-white mb-lg-0 mb-sm-3 text-sm-center">© All rights received. | safeblink.mk</p>
-          </div>
-        </div>
-      </footer>
-    </div>
-  </div>
-
-  <!-- Bootstrap JS Bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-    crossorigin="anonymous"></script>
-  <!-- Font Awesome Kit -->
-  <script src="https://kit.fontawesome.com/482fb1e021.js" crossorigin="anonymous"></script>
-
-  <!-- JS local files -->
-  <script src="./index.js"></script>
-  <script src="./infoPage.js"></script>
-  <script src="./profilePage.js"></script>
-  <script src="./discussionPage.js"></script>
-</body>
-
+    <!-- Footer -->
+    <footer class="heart-container">
+      <p>
+        Изработено со <i class="fa-solid fa-heart fa-bounce fa-lg"></i> од
+        студентите на Brainster
+      </p>
+    </footer>
+  </body>
 </html>

@@ -1,13 +1,13 @@
 // Navbar
 const hamburger = document.querySelector(".hamburger");
-const hamburger_icon = hamburger.querySelector("span");
-const mobile_menu = document.querySelector(".mobile-menu");
+      const hamburger_icon = hamburger.querySelector("span");
+      const mobile_menu = document.querySelector(".mobile-menu");
 
-hamburger.addEventListener("click", () => {
-  hamburger_icon.innerText =
-    hamburger_icon.innerText === "sort" ? "close" : "sort";
-  mobile_menu.classList.toggle("is-open");
-});
+      hamburger.addEventListener("click", () => {
+        hamburger_icon.innerText =
+          hamburger_icon.innerText === "sort" ? "close" : "sort";
+        mobile_menu.classList.toggle("is-open");
+      });
 
 // radio form
 const selected = document.querySelector(".selected");
@@ -65,6 +65,7 @@ var validate = function (e) {
       check = false;
       errArr.push(fields[i]);
     } else {
+
       // check for validation
       if (fields[i].id !== "email" && fields[i].id !== "phone") {
         val = isValidChar(fields[i]);
