@@ -1,0 +1,196 @@
+.container {
+  width: 85%;
+  margin: 10rem auto 20rem auto;
+  text-align: -webkit-center;
+}
+
+.cardsContainer {
+  display: flex;
+  margin: 20px 0;
+}
+
+.card1,
+.card2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: var(--Header-Text-Color, #0f294a);
+  text-align: center;
+
+  width: 800px;
+  height: 184px;
+  flex-shrink: 0;
+
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+}
+.card1 {
+  border-radius: 50px 0px 0px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.card2 {
+  border-radius: 0px 50px 0px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cardTitle {
+  color: var(--Header-Text-Color, #0f294a);
+  text-align: center;
+
+  margin: 2rem 0 3rem 0;
+
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+}
+
+.cardDescription {
+  color: var(--Header-Text-Color, #0f294a);
+
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+}
+
+.imageContainer {
+  position: relative;
+  width: 1600px;
+  height: 639px;
+  flex-shrink: 0;
+  border-radius: 300px;
+
+  margin-top: 10rem;
+
+  background: url("https://s3-alpha-sig.figma.com/img/7e4a/b167/44afc763683a6a79e2bf0fc988375797?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=K9EtY8fwtJMRUDi2ccaZWZaxnUCnA3utitYZugsmJKFaW9zhbYNShHr-NUmJUYqmy80J5vn1quT7~YCba11JAO-~Cl8AFOm97GqoDeXYtt~~TBgGp-4CkIM9cHotAf7w5J8-87uD7d86vioDDlMlB~EuWjpUavwZoGzOzW-bbujCvQx3Uom1nSL4yozOUffi-rzrfgw4vx72wla3G8LuzzKo309COtgw1YVH0AfR6O0OY~M7GgvOmR0o8SzoPx~2i3X7ZzsJ195CMHY2SCW8Cpem21N5uoMDoyGtDMbvNMBBPv9qUdIFtidl6qBCD9uMokVvkaYZ1RPRjZVcrVN68g__")
+    lightgray 50% / cover no-repeat;
+}
+
+.bottomButton {
+  position: absolute;
+  bottom: -30px;
+  left: 650px;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-family: Poppins;
+  font-size: 20px;
+
+  border-radius: 50px;
+  background: var(--Brand-Orange, #e87b22);
+  color: white;
+
+  /* Card DropShadow */
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
+    0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+
+.bottomButton {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.bottomButton:hover {
+  background: white;
+  color: #e87b22;
+  transform: translateY(-2px);
+  box-shadow: 0px 16px 24px -6px rgba(16, 24, 40, 0.15),
+    0px 6px 8px -4px rgba(16, 24, 40, 0.05);
+
+  /* Trigger the animation */
+  animation: shrinkBack 0.8s forwards;
+
+  /* Adjust background and color on hover */
+  background: var(--Brand-Orange, white);
+
+  transition: 0.3s ease-in-out;
+}
+
+.bottomButton:not(:hover) {
+  animation: expandBack 0.8s forwards;
+}
+
+@keyframes shrinkBack {
+  0% {
+    padding: 17px 45px; /* Expanded size */
+  }
+  100% {
+    padding: 17px 34px; /* Original size */
+  }
+}
+@keyframes expandBack {
+  0% {
+    padding: 17px 45px; /* Expanded size */
+  }
+  100% {
+    padding: 17px 34px; /* Original size */
+  }
+}
+
+/* Button */
+
+.newsletter {
+  position: absolute;
+  top: -50px;
+  right: 650px;
+
+  width: 292px;
+  height: 95px;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: black;
+  padding: 1rem;
+  border-radius: 50px;
+  filter: drop-shadow(0px 20px 20px rgba(47, 65, 88, 0.2));
+}
+
+.newsletter:hover {
+  box-shadow: 0px 16px 24px -6px rgba(16, 24, 40, 0.35),
+    0px 6px 8px -4px rgba(16, 24, 40, 0.25);
+}
+
+.newsletterBtn {
+  position: absolute;
+  bottom: 6px;
+  left: 6px;
+  background-color: #e87b22;
+  width: 84.07px;
+  height: 84.07px;
+  border-radius: 50px;
+}
+
+.newsletterLink {
+  position: absolute;
+  bottom: 20px;
+  left: 18px;
+  width: 46px;
+  height: 46px;
+  transition: transform 0.7s ease-in-out;
+}
+
+.newsletterLink:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+.newsletter span:nth-child(1) {
+  top: 22px;
+  right: 107px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.newsletter span {
+  position: absolute;
+  top: 47px;
+  right: 59px;
+}

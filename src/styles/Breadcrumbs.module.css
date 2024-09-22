@@ -1,0 +1,66 @@
+.breadcrumbs {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #666;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: #e87b22;
+}
+
+.arrows {
+  white-space: nowrap;
+}
+.arrows li {
+  display: inline-block;
+  line-height: 26px;
+  margin: 0 9px 0 -10px;
+  padding: 0 20px;
+  position: relative;
+}
+.arrows li::before,
+.arrows li::after {
+  border-right: 1px solid #666666;
+  content: "";
+  display: block;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transform: skewX(45deg);
+}
+.arrows li::after {
+  bottom: 0;
+  top: auto;
+  transform: skewX(-45deg);
+}
+
+.arrows li:last-of-type::before,
+.arrows li:last-of-type::after {
+  display: none;
+}
+
+.arrows li a {
+  font: bold 18px Sans-Serif;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+.arrows li:nth-of-type(1) a {
+  color: hsl(0, 0%, 70%);
+}
+.arrows li:nth-of-type(2) a {
+  color: #e87b22;
+}

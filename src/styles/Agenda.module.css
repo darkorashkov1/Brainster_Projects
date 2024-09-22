@@ -1,0 +1,109 @@
+.agendaContainer {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10rem !important;
+}
+
+.headline {
+  color: var(--Header-Text-Color, #0f294a);
+  text-align: center;
+  margin-bottom: 4rem;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.headline2 {
+  color: var(--Header-Text-Color, #0f294a);
+
+  font-size: 50px;
+  line-height: 62px;
+  letter-spacing: -0.5px;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.subHeadline {
+  color: var(--Body-Text-Color, #21383e);
+  font-size: 28px;
+  line-height: 62px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.pageButtons {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.pageButtons1 {
+  display: none;
+}
+
+.pageButtons button {
+  margin: 0 50px 0 0;
+  font-size: 32px;
+  cursor: pointer;
+}
+.pageButtons button:hover {
+  color: #e87b22;
+  transition: 0.5s ease-in-out;
+}
+
+.activeButton {
+  color: #e87b22;
+}
+
+.eventContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+
+.eventRow {
+  display: flex;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.eventTime {
+  flex: 0.1;
+  color: var(--Body-Text-Color, #21383e);
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 62px;
+  margin-right: 3rem;
+}
+
+.eventDetails {
+  flex: 5;
+  text-align: left;
+
+  font-size: 32px;
+  line-height: 62px;
+  letter-spacing: -0.5px;
+}
+
+.eventList::first-letter {
+  color: #e87b22;
+}
+
+.eventDescription {
+  list-style-type: disc;
+  margin-left: 3rem;
+}
+
+.orangeBold {
+  color: #e87b22;
+  font-weight: 700;
+}
+
+.noDataMessage {
+  text-align: center;
+  color: #e87b22;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 5rem;
+}

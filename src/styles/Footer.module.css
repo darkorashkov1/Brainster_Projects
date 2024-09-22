@@ -1,0 +1,179 @@
+.footerContainer {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 80px;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.border {
+  align-self: stretch;
+  height: 2px;
+  background: rgba(33, 56, 62, 0.3);
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.infoSection,
+.subscriptionSection {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.addressEmailContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.addressSection,
+.emailSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.addressTitle,
+.emailTitle {
+  color: #0f294a;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0.3px;
+}
+
+.addressDetail,
+.emailDetail {
+  color: #21383e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.35px;
+}
+
+.subscriptionTitle {
+  color: #191d23;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 5px;
+}
+
+.subscriptionInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 50px;
+  border: 1px solid #d0d5dd;
+  padding: 8px;
+  width: 100%;
+  position: relative;
+}
+
+.inputField {
+  flex: 1;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  font-size: 16px;
+}
+
+.inputFieldError {
+  border: 2px solid red;
+}
+
+.submitButton {
+  display: none;
+  padding: 8px 16px;
+  background: #e87b22;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  position: absolute;
+  right: 8px;
+  cursor: pointer;
+}
+
+.inputField:focus + .submitButton {
+  display: inline-block;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.socialMediaContainer {
+  display: flex;
+  gap: 22px;
+  margin-top: 20px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.socialIcon {
+  margin-top: 2rem;
+}
+
+.socialIconInner {
+  width: 28.8px;
+  height: 28.8px;
+  background: #0f294a;
+  border-radius: 50%;
+  position: absolute;
+  top: 5.49px;
+  left: 5.6px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .contentContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socialMediaContainer {
+    justify-content: center;
+  }
+
+  .infoSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .subscriptionSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .logo {
+    width: 50px;
+    height: auto;
+  }
+
+  .subscriptionInputContainer {
+    width: 100%;
+    max-width: 300px;
+  }
+}

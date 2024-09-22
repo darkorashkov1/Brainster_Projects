@@ -1,0 +1,308 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.wrapper85 {
+  width: 85%;
+  display: flex;
+  gap: 30px;
+}
+
+/* Left Section Styles */
+.leftSection {
+  flex: 1;
+  height: 714px;
+  padding: 2rem;
+
+  border-radius: 50px;
+
+  box-shadow: 0px 9px 80px 0px rgba(47, 65, 88, 0.12);
+}
+
+.profileContainer {
+  position: relative;
+  text-align: -webkit-center;
+}
+
+.profilePic {
+  width: 200.488px;
+  height: 199.242px;
+  flex-shrink: 0;
+
+  border-radius: 200px 200px 0px 0px;
+  /* border: 8px solid #d2b830; */
+  margin-bottom: 1.5rem;
+}
+
+.notification {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+
+  background: url("../../public//images/jam_messages-alt.png");
+}
+
+.name {
+  display: flex;
+  width: 168px;
+  height: 28px;
+  justify-content: center;
+
+  color: var(--Header-Text-Color, #0f294a);
+
+  /* Card Headline */
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+
+  margin-bottom: 0.5rem;
+}
+
+.city {
+  display: block;
+  font-size: 14px;
+  color: gray;
+
+  margin-bottom: 4rem;
+}
+
+.jobSection,
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-left: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.jobSection div,
+.contactSection div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cvLink,
+.settingsButton {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.hLine {
+  border: none;
+  border-top: 1px solid #7f7f7f;
+  margin: 1rem 0;
+}
+
+/* Right Section Styles */
+.rightSection {
+  flex: 3;
+}
+.rightSection h2 {
+  color: var(--Header-Text-Color, #0f294a);
+  width: 643px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+.rightSection p {
+  width: 920px;
+
+  color: var(--Body-Text-Color, #21383e);
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* Main body */
+  line-height: 26px;
+  letter-spacing: 0.346px;
+}
+
+.recommendations {
+  max-height: 415px;
+  overflow-y: auto;
+  padding-right: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1rem;
+
+  /* Scrollbar Styles */
+  scrollbar-width: thin;
+  scrollbar-color: #e87b22a4 transparent;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContent {
+  display: flex;
+}
+
+.cardImage {
+  width: 60px;
+  height: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.cardText {
+  margin-left: 10px;
+  line-height: 10px;
+}
+.cardText p {
+  color: var(--Body-Text-Color, #21383e);
+  font-size: 15px;
+  font-weight: 600;
+}
+.cardText span {
+  font-size: 12px;
+  color: var(--Body-Text-Color, #21383e);
+  opacity: 0.5;
+}
+
+.cardRecText {
+  margin-top: 0.5rem;
+}
+
+.showAllButton {
+  width: 920px;
+  text-align: right;
+  color: gray;
+  cursor: pointer;
+}
+.showAllButton:hover {
+  color: #e87b22;
+  transition: 0.5s ease;
+}
+
+/* Modal Styles */
+.modalOverlay {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  width: 782.115px;
+  height: 821.559px;
+  padding: 2.5rem;
+
+  border-radius: 50px;
+  background: var(--White, #fdfeff);
+
+  box-shadow: 0px 30px 80px 0px rgba(47, 65, 88, 0.2);
+
+  position: relative;
+}
+
+.modalInput {
+  margin-bottom: 2.5rem;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #0e2040;
+
+  height: 44.928px;
+
+  font-size: 24px;
+  font-weight: 600;
+
+  margin-bottom: 2rem;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  width: 31px;
+  height: 31px;
+  color: gray;
+  cursor: pointer;
+}
+
+.modalBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSide {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.rightSide {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.checkboxGroup {
+  margin-top: 20px;
+}
+
+.checkboxGroup h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.checkboxItem {
+  margin-bottom: 3rem;
+  display: block;
+}
+
+.checkboxGroup .checkbox {
+  display: block;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.saveButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.saveButton {
+  display: flex;
+  width: 240px;
+  height: 65px;
+  padding: 17px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  border-radius: 50px;
+  background: var(--Brand-Orange, #e87b22);
+
+  font-size: 20px;
+  font-weight: 600;
+}
+.saveButton:hover {
+  color: #e87b22;
+  background-color: #fff;
+  transition: 0.5s ease;
+}

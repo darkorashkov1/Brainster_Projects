@@ -1,0 +1,7 @@
+.centeredObject {
+  object-position: center;
+}
+
+.flippedObject {
+  transform: scaleX(-1);
+}

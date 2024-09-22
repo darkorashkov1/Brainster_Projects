@@ -1,0 +1,255 @@
+.signUpContainer {
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.headline {
+  font-size: 50px;
+  line-height: 62px;
+  letter-spacing: -0.5px;
+
+  margin-bottom: 20px;
+  color: #333;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.googleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  background-color: transparent;
+
+  color: var(--Header-Text-Color, #0f294a);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 46px;
+  letter-spacing: -0.5px;
+
+  border-radius: 50px;
+  border: 2px solid rgba(33, 56, 62, 0.2);
+
+  /* Card DropShadow */
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
+    0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+
+  margin-bottom: 20px;
+  width: 100%;
+  height: 96px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  color: rgba(33, 56, 62, 0.2);
+}
+
+.line {
+  height: 1px;
+  background-color: #ccc;
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.or {
+  font-size: 22px;
+  color: #333;
+}
+
+.label {
+  display: block;
+  text-align: start;
+  padding-left: 1rem;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.input {
+  background-color: transparent;
+
+  padding-left: 3rem;
+  color: rgba(39, 50, 64, 0.3);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: -0.5px;
+
+  border-radius: 50px;
+  border: 2px solid rgba(33, 56, 62, 0.2);
+
+  /* Card DropShadow */
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
+    0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+
+  margin-bottom: 20px;
+  width: 100%;
+  height: 96px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.submitButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  background-color: #e87b22;
+
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 46px;
+  letter-spacing: -0.5px;
+
+  border-radius: 50px;
+
+  /* Card DropShadow */
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
+    0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+
+  margin-bottom: 20px;
+  width: 100%;
+  height: 96px;
+}
+
+.submitButton:hover {
+  background: white;
+  color: #e87b22;
+  transform: translateY(-2px);
+  transition: 0.5s ease;
+  box-shadow: 0px 16px 24px -6px rgba(16, 24, 40, 0.15),
+    0px 6px 8px -4px rgba(16, 24, 40, 0.05);
+
+  /* Adjust background and color on hover */
+  background: var(--Brand-Orange, white);
+}
+
+.conditions {
+  color: #21383e;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.346px;
+}
+.conditions a {
+  text-decoration: underline;
+}
+.googleButton:hover {
+  color: #e87b22;
+  transition: 0.5s ease;
+}
+
+.conditions a:hover {
+  color: #e87b22;
+  transition: 0.5s ease;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+}
+
+.checkboxContainer label {
+  color: #21383e;
+  font-size: 20px;
+  line-height: 17px;
+  letter-spacing: 0.346px;
+  margin-left: 10px;
+}
+
+.checkboxContainer input {
+  margin-right: 10px;
+}
+
+/* Bottom section */
+
+.container {
+  width: 100%;
+}
+
+.wrapper85 {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.topSection,
+.bottomSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.imageContainer {
+  flex: 1;
+  text-align: center;
+}
+
+.image1 {
+  width: 805px;
+  height: 400px;
+  border-top-left-radius: 400px;
+  border-top-right-radius: 400px;
+  background: url("https://s3-alpha-sig.figma.com/img/6fa2/62b4/dfd6c3fc542ab06585aed58ae34ef8ed?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fbsJyrqAYDj8rjsD8jKlvGVobB0r0tO0l8g2uGDdHOQDnVb~vrMt0F1KnLscAJJcMOcREo1~mBsNqmTFdLUdbcY8ly5J3OONlB4iZPjKQhDt8uHq9M9GC5-DaMJjTVkSSTdMi757SxSYhfMMRzI63w1rUqOl38uR-KWDpqCu-8szvvaVTIjIaLse3bHmiZP40-MR60f2e5Er12zArJ0UB0ybsBgGYfmCGrIv7o6N~tYr~6upHQ3PkCE7e4pvR6Ryk3058V0bhNoL~FBUaabVXqjbQ92OWPDE9q2RHgVneqVgL~ByKOnzn4Ox8LqIeC-7F~4g5LX5ccVvomf5-fgS4w__")
+    lightgray 50% / cover no-repeat;
+}
+.image2 {
+  width: 805px;
+  height: 400px;
+  border-bottom-left-radius: 400px;
+  border-bottom-right-radius: 400px;
+  background: url("https://s3-alpha-sig.figma.com/img/f551/fc47/aaba2a3e2355b82babd932e330e0fb2e?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c~Y2EGNS5sCVLyjS7hCLpSSSoF3NlLfdmBWBRW7BJ-H6SpwaxLI9mTF7e4ZQnO~XY464zO4Xeh9W8odfE5BgTua9m6FvIgcK5PPJdFdg9-ANUCgz68XbGUm5T-utPvjdQf47L7XWkn45F0c19J5fMS-8Govim5Noc~5l4LW8r8SaF8t5BZQX9ReVc3hdqwZtRKGyPJKgx24nIU3Dcv4uvzXBqZ3GmtFXNZsAJsuYqAy0ITgQrsq5xRyk~VfNdzuyAWU40aCCcm1ozuvIHQG2nzYV~I4VsjLCSRsIZTDUJgtO2HxjAiLiGdjDR2B2hYPcfpAGi00Cq3I4SJiIcc06fA__")
+    lightgray 50% / cover no-repeat;
+}
+
+.textContainer {
+  position: relative;
+  flex: 1;
+  padding: 20px;
+}
+
+.title {
+  position: absolute;
+  left: 300px;
+  bottom: 20px;
+  font-size: 48px;
+  line-height: 62px;
+}
+.title2 {
+  position: absolute;
+  right: 300px;
+  bottom: 20px;
+  font-size: 48px;
+  line-height: 62px;
+}
+
+.unordered_list {
+  position: absolute;
+  left: 300px;
+  bottom: -180px;
+  font-size: 16px;
+  margin-top: 10px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.unordered_lis2 {
+  position: absolute;
+  left: 0px;
+  bottom: -180px;
+  font-size: 16px;
+  margin-top: 10px;
+  list-style-type: disc;
+  list-style-position: inside;
+}

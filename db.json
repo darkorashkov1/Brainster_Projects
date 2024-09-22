@@ -1,0 +1,704 @@
+{
+
+"test":
+  {
+    "id": "1",
+    "testName": "Sample Item"
+  },
+
+  "blogCards": [
+    {
+      "id": "1",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/1bb1/2efb/ca02856ec37b7603acb8116b8e239f90?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qvd4~QHxb~cafMm5qhS8TfodKShIlWNHnhZWJ0F7kV9fTkcVQoTZ1sHeNPaDsIkolKyHKBKcxSDvzHgZ0JEv5XeRpmP9WMU5~Zgh3D66SSVNBuEhB0EM8CM2J1Cqc4aRFkqMUXnk4pp09j4qfYKvhzUsbcrWZYtrB~lUrypog3BiS~PtfpW3eO1das8M2cSZIg5xSFN8jaRCJo4WY0oVFylNiBY0MrcPXNA4oHVQLJvLZHyOuP4nMHv2Y5XMiEffozzznj6jlsIrYbAWqbsTvKAIIr5LUqJ6qjdsafKbfRIwsQDX61Z~qAJ7M6b1nlYEH05qiPhX5Tj5HRbOWKQIGA__",
+      "cardTitle": "Како да привлечете и задржите клиенти",
+      "category": "регрутирање",
+      "description": "Откријте ефективни стратегии за привлекување и задржување на врвни таленти во вашата компанија.",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/cba5/e8bd/36e64c8382849d02351147d485db39f3?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gvLRB1JH~oQVhqhC7buAaGNnIElmS-39v0M-qXZW-4Nv2eGG68hwan8As~wbKNLRl7JxBWBwddv3skxZxbL3ZrhBD7mIIWsXCybbO2OpJtrdTocNo8FaxVe28VeAG26EylEGMBXJi5f2hAteDysl76CVNXQImBdK9edS-TqkS0VacKIW41Q4JfMN7Lk08fNb--A7U-X98FQsERe6tecw~oPhViSVbrw3~ndirZDnnKVCOWHnywKNcjyeY0eyDMiVBZTdROiBUcQlH-CmvsL3tZsT9ge7US3NzU3kyoTep~FzyXFDvM6kO0R4v2788q3TRD3doAOHiqb-mgBMqFE5yQ__",
+      "cardTitle": "Техники за управување со стрес на работното место",
+      "category": "развој",
+      "description": "Научите како да го намалите стресот и да го подобрите менталното здравје на вработените со практични техники.",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "3",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/0579/41ba/da4cafcacc48394988352a76e5c7c1be?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DZZr1qi4Rb0lbENvXLlLP501t4T4f1RbvTcFWVkpDDOloztzyNK3dtQbwgkyJo4LGeg0Kbib3DF9fMOSq72IaAQNmSOWAYxv85YhR5Grx9GzKMhpkt2a6XxJOmEt6hhJGxTpIIRYsouVooAD-nGPENvbF9gOyx4R0voT-pPxfYmGzgOJ~GhzD5B~BoTFKjRcGlTRjlvuYgVMb9~0nkx4cZXX5vAtNGAMcHB6UqIk3C82fFlX8X7iOM0XifES7tpKnVZMPINGHSIRMgYFrFdV77iAbBz2-zwHqYiZOZuq8CUJ5bhKBSyfKXvQosgJBlBN4w4C~Lr0ZcVWU~mvVENJxg__",
+      "cardTitle": "Важноста на обуката и развојот на вработените",
+      "category": "Менаџмент на перформанси",
+      "description": "Дознајте зошто континуираната обука и развој се клучни за успешноста на оранизацијата.",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "4",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/08f5/6b66/955db31e4ef94a065ce2a976e0869fb0?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kUA6qyMF0eELuGXClBcg9AeAXMUxBt1MyCtgfg6UBhVESUaxxwTT40J~iUI~R9a1ZDBSX962PMq20TKG9VU9YQpkZWijxdnVv6eWaKer-GJhdA2QrMf21qzmXY~R5xc0X1hQmyyOTnz32RmY8wnAY~ct7B~eeYllHowmn6wY-hLcFEIB2~QYw7koqSsP1fUkf03K7UsID9m3V8JC8k9PAgIrSq9JOLcgoqs~4MADkO87uCx5EI0oZLaMmBSQ3ot2WeGpOh-6Rj44ZpHq0phMWSMpMUWK2hxw5rTpriskhr6g-TmFmK0zJkg9xIFIfOJfrE-YidxDBspiknSs~ZUoBw__",
+      "cardTitle": "Разноликост и инклузивност: клуч за успехот на оранизацијата",
+      "category": "компензации",
+      "description": "Истражете како разноликоста и инклузивноста можат да ја подобрат организациската култура и перформансите.",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "5",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/3e83/8c11/8884b30ce1d4f153b7eaf15f43478b67?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a~G3huR7ryBBVRJMhA2H9d~roql7TqygSgEvuLOt0ejKGMUeJC4J4rOR-xRdGv41Nt3FBHFn2HPUwVBXHugpPoooSaLPH~~ISmOtLiysUNHJeNPbJ34TuN7wQT8m57U4aWnVq5KaUlkF9gu~Wl2vRfE6ksRGvVdzfjC6L~JS2P~4CufCVrSjoKmWgGB6tRhYDf6lHJoBZtW~px8i1AS3ap2qbZueWKeRgvLrjfsraDIb1EuwdIAj0RrORbDw6sz-vVliiG5JvtyC74VltCAXFV-4styFJqim48GKLRR6e25-qtZSLYBu-H-uHqYwCYBB73n0kSzMECmYXtTpFnWkcQ__",
+      "cardTitle": "Како да го подобрите балансот меѓу работа и приватен живот",
+      "category": "обучување",
+      "description": "Научете кои политики и практики можат да помогнат во постигнување подобра рамнотежа меѓу работа и приватен живот.",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "6",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/8ba8/a51a/c7b2ea0c24ec35dd0398025ee53f1a29?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RvkCDEVNAyBvQzGFvaztAjD1Rjwz~N3X4uVCrx~Ylu40Cawl1TiPu9EC8YGPFNgxfZ8XIe9Na-iYf~XMcmAjtEqwwOk-SzjTaxWIXGKjFb7sQ0klGWJC-MMmfO4bPzKEUjleVigYB6DNQYMF8APGAJGSJ7DL1I9pvA-0-5U6YsYz2NEPJkj0VJf9PlV9Z80PwLIWC6zksu7G21rJLizHRQGPbDDdNMKW5k~LZRg1~HCQs1aNa9WCIqtJqPqgaZ1pojvRN2NA4skwcdnTgOYAFvoHr2w6j~K-QrUd5Z30UI~kShXKlROX1MbPNRGFJ0RCSg4yIi8AIM4AO4LFgv8gmw__",
+      "cardTitle": "Ролјата на технологијата во модерното HR управување",
+      "category": "HR согласност",
+      "description": "Како новите технологии го менуваат начинот на кој HR професионалците ги извршуваат своите задачи и како да го искористите за подобра ефикасност.",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "7",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/1d0e/fb22/48e237d3a4654186f27d86bf9664a002?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kcasxo1fvcVOYteuEKz3Gq0VjYZU9GdLP49svVE-jqIaD03IasSvDoQP4-HmnJyTkwD6L7g86leyvSeCV3RvkY~bN1VJKt-w~BAQWHxeGXmChlmMY9iOK-C8VywqQ5NSRSYcig8P8x380i6sWkb~IEjyrkL3OmPILDoKnQYAc0l4l87a2VvFFinLICr-KUGPJYM7hyAOrNJuzDMrfjbJ4f4i~8OOxzVwPGDgBG~94O6he-kgbgVhd8-vvtH-IHW3V-as46gEPuN1OhBtJC8xYNrBMH7sO0fUV0iRVkw2EMao0LnIcwlyYikjUgBhmbFcRikc19RQr96uo9VLOo3XBw__",
+      "cardTitle": "Креирање на позитивна организациска култура",
+      "category": "развој",
+      "description": "Кои чекори можете да ги превземете за да креирате и одржите позитивна организациска култура која ќе ги мотивира и инспирира вработените.",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "8",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/2fca/9213/e640cd431122f49f164e4072eb59637d?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XJ3wMZaDa4mu6ZK1sPzrp1BIrEhhkVwllJsheb5~xNLdRtX~wjdre9~QnWhvImdAdky42t7AbFMreY5Qk78fwdd3XG4AWCQ~dFb3-9YOgHDMEuqrYVMtS18PLdrRTkr8Kh8fnLcNFJv-IcA4ZESujC6DKHtOua5Fvl3DwqLK1K2oRCFX2bvpWjsjc5C6t~WfEWrW9QlnpL00iT4hz6a8W5YQ1fLwoDsg25gxANgNN6UHav4podAl6C6ca8aqk7crU9KKdyTYf2AyXg~d03iAmEUCgfb2Rax7pVXKbQlDPvpPsmSSUomQ0G094pN56mL1-yc79eatA27F4sfOiyVpFQ__",
+      "cardTitle": "Иднината на работата: трендови и предизвици",
+      "category": "Оранизациска структура",
+      "description": "Истражете ги најновите трендови и предизвици кои ја обликуваат иднината на работното место и како вашата организација може да се подготви за нив.",
+      "readMore": "Прочитај повеќе"
+    }
+
+  ],
+  "currentEvents": [
+    {
+      "id": "1",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/31b4/a58f/4486343b564b6ce2bf38d8757d233362?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CErq5tG07obPnWy-Rn4s4pGzuInmb7EJZRwNYaCwBWMpGkiAPlMiTy9cumuyvwQdArW-Qwut7opZXHwlIbabRsjBodC-K6wEJ5UBD8Wfs5Nr4gYv5VvT6jt8rLOZwGGIi9BGZKFIvOtoCivNhuHey0r3HqG~aHq6dXxpwO~xGk7JEzoYmVAUl86wRH6hJc2Lp2AzOtGayY1v5UopnmV0feq2ldkxBhgx7pJBujQUNyshOzOjch1rOEnqzallVrQ0-5T1fm0mUVRr-8E~TXdc6279TRTQdCRuZESw6HQtmLaCFOFUapMfgSLMW~agMWvhqcKTXuCA9mT0rztgqlh6YA__",
+      "cardTitle": "HR CAFFE на тема: потребата од зајакнување на соработката помеѓу HR одделот и вработените",
+      "description": "Гостин-говорник на настанот ќе биде г-дин Благоја Ралповски, Председател на конфедерацијата на слободни синдикати на Македонија (КСС)",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/6d92/b418/0766b96346339477fd1d9692ba525b7d?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mvqR1FyxMZ1VNo79PrZ9Ya5794qV7ZSwDYfj3GMDd05QIeqgDleR-OBk-uFBz9t7nMpTmnSjRa5WcD08DnHA8Sutcs-DKNfO6O3ePWKKEGBy3EnCjZ7ba6-sPxAvuZa7t9D7~Mxgc87vjDnksCnxKQJsv1uYmnMd2YKZewFJNwXFJJY-bK~c1zlxlcgCC8AmDYCgkzyvrELvRrVjMnDMpfk3EvJ-lt~PpQ35tPxWTBaKWJjVmhtILHKvE9VlRKr-bKwb~mF-aSM4UAizrlhwRd3FwQIwsa4dP07W9PEEvVGfNZQdVh-UGmEGT4DBBSAe95jSvP3DTMH8Xw0WdCpqOA__",
+      "cardTitle": "Работилница за развој на вештини",
+      "description": "Учествувајте во оваа интерактивна работилница каде што ќе развивате нови вештини и ќе ги подобрите постојните.",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "3",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/ee75/0f47/ca1f25d030c612f58f27e86c27e5a12d?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZLR0vIfl9O9b4U69fjIKiStQvfC85jTt9gMdNVreTCcHY6G54xZsM77pBsfG7WfLPQTPygf-lo965N64s6e5S-M697nHTwtJNSUk0GdGYbzgDJXPk3j7TX6I2OQi5YeYmpe9XcGec6~YsnLGbXv0uuPP0vP4cBQxvakxz2EZ-bVKt1GjL8734MNfgbL6pbaDX4XBhKc8micyNShF1eIRthk1yf90b0b~DgimolraNyMzBelzfBMuYtqsA70f1DckDSZX~AFQA-~CYqewNpMEPiCiNRmaabB5L4nNq5ZGcepivPTQ49jkaasIQQQcNhdoVkcD8LIB6vlk4aKHgtIuoA__",
+      "cardTitle": "Семинар за управување со таленти",
+      "description": "Семинар каде што ќе научите како да ги идентификувате, развивате и задржите најдобрите таленти во вашата компанија.",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "4",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/af07/d68c/b1199932693ce3ae2b9d53b7a402914c?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iQoHt0rvOVXgeW6B0hkV-eu16F1HH71ag~4HfJv23mpQrOucAI6-bgpyzgdy6B5bOOxWfvSRbqmIQMcFsiS6XzDCE6JkFRDWYZNXxNLX7ktqFsaexc4VsLycCDLR6w4CM8QTVY1PL7LyiG4e-Lv0eooCIhr54ZvryQsFTLfmJs5NcT0nmihQAQ9ITUYH2~RfHIsvGvET37NTdEBn2tEDCX7S6ybn1FHzcZ-K89Yh3gZcXsH3GK~a2Doxq7d23k9ztPrwJvOPbzU6mH4IE5pwKMhhhfGyzA0ybfDXpU4HKji10twJwxCle0nOzN3kNa6Wv6kejX7CX0KxXIz~8HlIcA__",
+      "cardTitle": "Конференција за дигитална трансформација во HR",
+      "description": "Откријте како дигиталната трансформација го менува светот на HR. На оваа конференција водечки експерти ќе ги презентираат најновите технологии.",
+      "readMore": "Прочитај повеќе"
+    }
+  ],
+  "eventAgenda": [
+    {
+      "id": "1",
+      "time": "10:00",
+      "title": "Регистрација и утринско кафе",
+      "items": [
+        {
+          "description1": "Пристигнување и неформално запознавање меѓу учесниците.",
+          "description2": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "time": "10:30",
+      "title": "Вовед и отворање на настанот",
+      "items": [
+        {
+          "description1": "Поздравен говор од организаторот и кратко претставување на агендата.",
+          "description2": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "time": "11:00",
+      "title": "Презентација: Важноста на соработката меѓу HR одделот и синдикатот",
+      "items": [
+        {
+          "description1": "Презентер:",
+          "description2": "Клучни точки: Значењето на заедничката работа, придобивки и потенцијални проблеми."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "time": "11:45",
+      "title": "Панел дискусија: Искусувања и предизвици во праксата",
+      "items": [
+        {
+          "description1": "Модератор:",
+          "description2": "Панелисти: Претставници од HR и синдикатот од различни индустрии."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "time": "12:30",
+      "title": "Пауза за ручек и неформални разговори",
+      "items": [
+        {
+          "description1": "",
+          "description2": ""
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "time": "13:00",
+      "title": "Работилница: Стратегии за подобрување на соработката",
+      "items": [
+        {
+          "description1": "Водител:",
+          "description2": "Практични совети и техники за подобрување на комуникацијата и соработката."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "time": "14:00",
+      "title": "Клучни алатки и методи за успешна соработка",
+      "items": [
+        {
+          "description1": "Презентер:",
+          "description2": "Презентација на алатки и методи кои можат да се применат веднаш."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "time": "14:45",
+      "title": "Завршни зборови и заклучоци",
+      "items": [
+        {
+          "description1": "Сумирање на клучните поенти од настанот и дискусија за понатамошни чекори.",
+          "description2": ""
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "time": "15:00",
+      "title": "Мрежно поврзување и неформално завршување на настанот",
+      "items": [
+        {
+          "description1": "Можност за неформални разговори и размена на контакти.",
+          "description2": ""
+        }
+      ]
+    }
+  ],
+
+  "presenter": [
+    {
+      "id": "1",
+      "firstName": "Мајк",
+      "lastName": "Вазауски",
+      "avatar": "https://s3-alpha-sig.figma.com/img/f71a/3e70/2197d6966d56c795ee9fadc410552f53?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=azybChEik8yl~IlRZlCuIGAstkZn625TiwIR6RcznL-I4vGKwszWlkjGp-bEseF5zmqUE0gukeMFAlxTBWu5iWeB~hmmdU0px0EovwfLk2P6XHZXXuaih6hzeo-Ch1R61BIP2G-1OWlu2fHLmxhOlCNKURjKuOaf74N~YGNRHibRUEn9h8qirGzQHTWStU7PRLi9VEX2W~UC3eGnY8i4gsRDsbTlQ6nwz3mQBT~47bG66q03c0sdLkQElp2XVlFP9W9sKjb2gU7e~1EG8jtwKcmDMhkjygg~77jKWaua9q1tn7E2~2yjpokhUyBLjTQl9XhvULTD0bv9i-ScnjHL7A__",
+      "occupation": "CEO на “Монстер Инк”",
+      "statement": "Придружете се на нас за оваа исклучителна прилика да бидете дел од глобалната HR заедница и да придонесете за создавање на организации кои се подготвени за иднината преку проактивни HR стратегии. Конференцијата е дизајнирана да обезбеди инспирација, знаење и мрежни можности кои ќе им помогнат на HR професионалците да бидат подготвени за иднината."
+    },
+    {
+      "id": "2",
+      "firstName": "Оливиа",
+      "lastName": "Оил",
+      "avatar": "https://s3-alpha-sig.figma.com/img/50f0/6f83/68b96577e708df86e2b7ef94d007cca5?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BR~HB5M7V9GdFLQKUOGTs84C2HGmwMe0YDLeAr5enAmVBQ0AMubLDkQlje86fzsjOj8K3CTekmlcf94XIUoOEV3NiKs7CQUObVjJe7we7VwrOjW4cW2WTtuuy5eD2vJB-eIekLVoGsYPtSHmZIer9gwD8kAXME38d9s-MVZx-XdlF4v9P-U-tftPsE8MYb1ZqWuPCZzbGdL4u6ws7G4jNbHUcEx2Jh2LKTSjcVRxfeGlJH0qsa7wGMhpI7Qnf0Ld9dbyh9rR8ktBqmC0rsgbpn0-gurrk~37r0sse-3mcsRaYhiRJq678WBC60~2hOplTPbEy23MAbGTAdsx-exniA__",
+      "occupation": "CO на “Спинак”",
+      "statement": "Придружете се на нас за оваа исклучителна прилика да бидете дел од глобалната HR заедница и да придонесете за создавање на организации кои се подготвени за иднината преку проактивни HR стратегии. Конференцијата е дизајнирана да обезбеди инспирација, знаење и мрежни можности кои ќе им помогнат на HR професионалците да бидат подготвени за иднината."
+    },
+    {
+      "id": "3",
+      "firstName": "Џејмс",
+      "lastName": "Суливан",
+      "avatar": "https://s3-alpha-sig.figma.com/img/2b27/ad01/672b9f9955203f6bcbb04ed71db5347c?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O7d7iodoSmMZ6KEGjg5JXSId9LWv2DJPSwOBvdBDU4VjD37ye3a4o4bi560PQ-HwPyaM~gMI3oEBlAdM7iB9L5borgTJ7mi8ZGp2rIxULuvfFD6~RhJ6Xb57BJ8VmI-aMSJDhHfaZrC8dSdrcQXHIoL7wQ-J9hSv~01FwJLGCgxsgNfbX53nmZFn4baouQZk8gvaPpBHLgBre7EsdNLUWCw98lxID5XTBxqM3adiczFtB3pSR5SsrFBGKLFF6pS1fJ5Td3pcMgOOXQ5qygQ0SIaS8av1DUQQCbGIYTZB3btVUmlQzp5j4GhQH6j46U9kUzTPWfuvhRn0uFoyJx80nQ__",
+      "occupation": "Основач на “М.И.”",
+      "statement": "Придружете се на нас за оваа исклучителна прилика да бидете дел од глобалната HR заедница и да придонесете за создавање на организации кои се подготвени за иднината преку проактивни HR стратегии. Конференцијата е дизајнирана да обезбеди инспирација, знаење и мрежни можности кои ќе им помогнат на HR професионалците да бидат подготвени за иднината."
+    },
+    {
+      "id": "4",
+      "firstName": "Една",
+      "lastName": "Моде",
+      "avatar": "https://s3-alpha-sig.figma.com/img/e1e9/dc2d/8780dafe1c2e3c98c9cae8b54561f6d5?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qa8vZMnnaFCW75Y1tzhwgpddDtV1tIishpltFyu7jV1nw9sFOOfnV0zXjdGnLCUmzj6pFjUFJjXw3~eVSRdoW5s-OoEl3ZjeqQ6PFRROxBxAeSdf-y8gZcIeW6Sln~pzwKdEuIZN1R2NDljHSQoo1sRaH7qc0j~~hM9nBN~5NVElGYWEwIcH2Jx2IEIpGxqAUrbKgw-bqJ7w~kTdhMSGkL0LYukf0LRNG8HCbJojC85ZfMFK8XFP~ZP62uGGVFaAcnJXRXLmXQowmx2oweXIMS7mchuKDng-QXwkCLyPDPb6A-NSKDXXGMTeUu~YNaT4lbNX~ibQWyJHlm-rWFNm3A__",
+      "occupation": "Основач на “Е”",
+      "statement": "Придружете се на нас за оваа исклучителна прилика да бидете дел од глобалната HR заедница и да придонесете за создавање на организации кои се подготвени за иднината преку проактивни HR стратегии. Конференцијата е дизајнирана да обезбеди инспирација, знаење и мрежни можности кои ќе им помогнат на HR професионалците да бидат подготвени за иднината."
+    }
+  ],
+
+  "popularResearches": [
+    {
+      "id": "1",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/1e46/cd4c/c8e7283d4b73ed3bda246d97da33c41f?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ppb~KD9zeZ7uk3TwH4hA45rf5J9vt-wNaRicsXaSu8atQTwNq51qsIsX6BLc8ZQGVtNNXqJsItw8UF8Ydw4K7s0dJ1Ho~GwYd6vH~-pb8Rfa7tRwkTPe3I4NQQljpasipmZfRnTTVYFzEUak2F9sm1GQwFpqpz5OghbP9AD6uj8ORkm-aAFPyJIOhlmqsb9kMmje-qa5Vu1bkZJmn5NeIcmx4rHZFv7gn4IXkk3HXxp1Hr6Q5SxobFyoi70H-aoBSIALAeroPQVPv-Ev35bFqlZSWHugijYhvq7mhY1azXLRFEt1hF~149z4stWJBHgRg-vMjkI~s1n4pqL3VYA7xQ__",
+      "cardTitle": "Истражување за HR компетенции",
+      "description": "Ова истражување ја анализира потребата за клучни компетенции кај HR професионалците и како тие влијаат врз организацискиот успех.",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/12ae/77b0/74f934182f097506d4eebe98293e2dc3?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mRKVNrP5GTcEHTcmmead0tibrjQ4Gizxcz9MBeXEhTZ-1HtLqLeM8crGKT2l9F02pB-PGy7d~xbz1mombCB9euo34WPZNyFktglJf0zsVOR3Tf5htB60gBBXxRHgM1IqgXwFr1jXT3f~kn1tgwddTk12v7U76UB3H4QryGt4jvoi510NQYrg0Cri6wKms7srtHXTeFkNd1w2n6mPNvPuiTvpawExjlmx3IhR~X~y0jwmc6wa5BJgI9fKeHTvYdX1CdHiQt~cYBshn1~KVrUaggFKgmZhPLnduJJEu67R8ZS0Onrd7FWC5~kBrSDLzS99AFQEJWznIWzonlbnWVfZcw__",
+      "cardTitle": "Истражување за ангажираноста на вработените",
+      "description": "Ова истражување ја испитува ангажираноста на вработените и нејзиното влијание врз продуктивноста и задржувањето на кадар.",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "3",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/3138/286f/60c2ea257be5f1654c3592ce96c481c0?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l3I4hyCtvaVsXVv406kDUcHOTu0KepyQakdWHmN~3gWscxSe4BODnvN4qQx4CUYGugLDfgkhLQV4kOHuxEOFnL0lOKyn8tpyBk3qxtGfIlJZZBBCfYBKHXOEJNVKM7OOtx6drwwPDmD4RMKvCfe5ki5artfrpSNNQ7c4qw-Rv8pm7d9hSYvjCgpZZ~M1qEDit7AF6bvMvLnpRi0RlZIskWqRhuKEnjyfQiBy6YNhNBl~599xtPU0n4Gckaw~o7Nz~7To6SguzcYQFdQMkzVMX~1IGzhPRYP~qoO~yODxp6LwwiuLaaWV-E4zZHv1Er9JFIGIT0nNceF13OD7oFrVFQ__",
+      "cardTitle": "Истражување за инклузивност на работното место",
+      "description": "Ова истражување ги анализира практиките за разноликост и инклузивност во компаниите и нивното влијание врз перформансите на организацијата.",
+      "readMore": "Прочитај повеќе"
+    },
+    {
+      "id": "4",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/64e2/393b/354d5b13a03264eb634683de860b72e1?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GbeEBcbzAnhwv8qWN90Qm~meMSkb2UoIRchiAgFt~X7zUr1eolqTgZ1NrPJ6uZFACZOW5oHEZmQTWAAt09UR87p-3jKXYcAtntAVmKjYVdt8engN~XeOMcF~mKk6SQlztLlGeaRRI5ZTkRstbxHoSvsEUUv97t2DF8Drvg5Njx-r8R2WeJ3huKFfyETegrC8K-z5WimQ32dJXw2M74l-HenHIpM0D~y8Cd7df72eYYF7grmaXY12NTVc8c92zphUfvZfIAJNrTGUh03suidsHWf2SsLWtLs5DIaAjNTz90BC8yuQhlsd0BfxU3El8lLCm6o-Sggyl5yVaDRky8zulA__",
+      "cardTitle": "Балансот меѓу работа и приватен живот",
+      "description": "Ова истражување го истражува влијанието на балансот меѓу работа и приватен живот врз благосостојбата и продуктивноста на вработените.",
+      "readMore": "Прочитај повеќе"
+    }
+  ],
+
+  "userDetails": {
+
+    "id": "1",
+    "avatarImage": "/images/Foto.png",
+    "firstName": "Валентина С.",
+    "lastName": "Стојанова",
+    "city": "Битола",
+    "profession": "HR регрутер",
+    "telephoneNo": "+389 70 481 440",
+    "email": "vstojanova@hotmail.com",
+    "password": "",
+    "bio": "Јас сум Валентина Стојанова, искусен HR регрутер со над 10 години работно искуство во полето на човечките ресурси. Својата кариера ја започнав како помлад HR асистент и со текот на годините напредував, стекнувајќи богато знаење и вештини во регрутирањето и управувањето со таленти. Позната сум по мојот професионализам, одлична комуникација и способност да пронајдам и привлечам врвни таленти за различни индустрии. Работев со големи компании, помагајќи им да изградат силни и ефикасни тимови. Со посветеност кон мојата професија и постојана желба за усовршување, се стремам да бидам лидер и ментор во областа на HR."
+
+  },
+
+"recommendations": [
+  {
+    "id": "1",
+    "avatarImage": "https://s3-alpha-sig.figma.com/img/561e/0ae4/d2bb99841d98146d5254a3062a1cfc29?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P~IqsyX8lUYoWM~9e34GSymw00n67nDDptuaBfVlAIJ7eaGToN0p-QJ2Gaw7IDbfmekRUBq8dWKy-GXmgIY7rL8oGspVxxfRftgtjdPYkGq8NpslbKsXvkjBBlZ8ARBRkM0sGT51gD~K3gQ~~gfSTxqI~WkRMRk5zN1FYaCZSQOAG89jssJuckuz87OKcZIsp8LoKUMKrdPZIp4qmmGHnw8Xk7mp-wnKCUVbcTqbiKGLOprM~lrhD3nzOkbj-vZyu6AHlPXZVExBeV7UGvj-1jbDs0LC5mcj5o4SqZjA9K3achrAx-OvJG~ChwZ10WQc9NSxnzFNdu6sjfg9GM1i0w__",
+    "name": "Фрањо",
+    "posted": "пред 9 минути",
+    "content": "Со задоволство ја препорачувам Валентина како извонреден HR регрутер. Нејзината способност да идентификува и привлече врвни таленти е ненадмината."
+  },
+  {
+    "id": "2",
+    "avatarImage": "https://s3-alpha-sig.figma.com/img/3304/f536/df26422425e072bcc7b57f9182225689?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cxEBeCoQ~~iRbp4~j7i6STHQhze6~R6MnTPXIpenvpT0KuCn77s4R8Ia6zBqu30EiXRxMOhqqp8ifY617GTFjjxeZZkDBzVkyhL7s8V27krJyrkCQUVnRkblba5-Q5rWNZJpROIf4g9aHwTg2YQRsst6IsdSdR1PlLQMnVCiJ4ADYG5MUp77dU-bBZ7~JVvn58ialprAT5JuvNp8zu8WuKvPFkFwzwKM0VnnqTwMY1xIvnMYDKNn3P1jJdLKGn0HdcxbjGroadYRHW34Jet8oIu4gFpyjkbxnhfOqiPRwEEM8lQcdjWdefJEoPS7a9fHrbF2di7-mnLjWa5u29gR5A__",
+    "name": "Бобан",
+    "posted": "пред 9 минути",
+    "content": "Валентина е извонреден HR професионалец кој постојано покажува посветеност и страст кон својата работа. Со нејзината способност да препознае и регрутира талентирани индивидуи, таа ни помогна да изградиме силни и успешни тимови."
+  }
+],
+
+"events": [
+  {
+    "id": "1",
+    "date": "2024-09-21",
+    "mkDate": "21 Септември, 2024",
+    "mkDayDateMonth": "Сабота, 21 септември",
+    "link": "hr-cafe",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/dc0b/9c05/27ced7c507ccc54858f3194bbd252362?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jMkQWfRUD7zRvrfH3HcF16Owx1nmgHFjxu0ZRvBoQP~szfciUj9~VkMTAW-UF0Vz1dqOIN6GbONJQO5dUU23GkRZUQklL36hbD1tfoawzuFoBZ4c5z08ldnrDTwCAumeAg-PFWin5OMMjRMpnQyX1mOk3JypcN8kwVIg1EG0tmPicrpa4Rd85Ge9-9U~O2fZB~BoNLnosz7Ng0kSk3jIJzPUlK6XCSR7TbBnW5-Aoc2UUS2tJDH-IIxFZkeO5ybNbaPaLCsAIL~qaqSNFHaXzO5daYoxQpaLJIzf6fkvuco3-cNRd27DTIByHOVwKoLwum3dr9~If5bfxNYXVZnOqw__",
+    "cardTitle": "HR CAFFE тема: Развој на Кариерата",
+    "category": "HR кафе",
+    "description": "Споделете ги вашите амбиции и цели додека уживате во кафе и добијте совети за развој на кариерата од HR експерти.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на овој HR кафе настан е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "2",
+    "date": "2024-09-30",
+    "mkDate": "30 Септември, 2024",
+    "mkDayDateMonth": "Понеделник, 30 септември",
+    "link": "hr-cafe",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/9f91/1958/a314a7f080ff634bf28ba14106af5893?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KcH~maSHgHGw-i5Hjb2IyPL-CTuH8Gj9YjfPkry8QWI6IwB8KTu5ooSVh09AWIiYvVdetEGgYnIVh82U8l~8AyIPrqWuA2f07NQD9vF~Da9x8E-pzMcgDVJmWKwK~MVB3bcC~ts3CGsBItKz2eFcSlie0Lp-FlRNOq1PlLg~oFhMFz99~UMCMUAoBPIrFnIPXhvmVQg8WFo-sjhdzmCp3bsd8eC78pHyFoLKNUlaCp6kmVw3~nL~tZpyYY3bS2yzntoia3BugcoJ~lenBg3Eb7mZztfWyy49t-GMQBUAkWiIQl4grHZSBVR9Ue1puodHOUIjHVv~qMESekPSCtYhWg__",
+    "cardTitle": "HR CAFFE тема: Инклузивност",
+    "category": "HR кафе",
+    "description": "Придружете ни се на оваа каде сесија каде ќе дискутираме за важноста на инклузивноста и разноликоста на работното место.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на овој HR кафе настан е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+
+  },
+  {
+    "id": "3",
+    "date": "2024-09-28",
+    "mkDate": "28 Септември, 2024",
+    "mkDayDateMonth": "Недела, 28 септември",
+    "link": "hr-cafe",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/31b4/a58f/4486343b564b6ce2bf38d8757d233362?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CErq5tG07obPnWy-Rn4s4pGzuInmb7EJZRwNYaCwBWMpGkiAPlMiTy9cumuyvwQdArW-Qwut7opZXHwlIbabRsjBodC-K6wEJ5UBD8Wfs5Nr4gYv5VvT6jt8rLOZwGGIi9BGZKFIvOtoCivNhuHey0r3HqG~aHq6dXxpwO~xGk7JEzoYmVAUl86wRH6hJc2Lp2AzOtGayY1v5UopnmV0feq2ldkxBhgx7pJBujQUNyshOzOjch1rOEnqzallVrQ0-5T1fm0mUVRr-8E~TXdc6279TRTQdCRuZESw6HQtmLaCFOFUapMfgSLMW~agMWvhqcKTXuCA9mT0rztgqlh6YA__",
+    "cardTitle": "HR CAFFE тема: Вештини за комуникација",
+    "category": "HR кафе",
+    "description": "Дружете се со нас на попладневно кафе и научете нови техники за подобрување на вашите комуникациски вештини.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на овој HR кафе настан е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "4",
+    "date": "2024-10-01",
+    "mkDate": "1 Октомври, 2024",
+    "mkDayDateMonth": "Вторник, 1 октомври",
+    "link": "hr-cafe",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/31b4/a58f/4486343b564b6ce2bf38d8757d233362?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CErq5tG07obPnWy-Rn4s4pGzuInmb7EJZRwNYaCwBWMpGkiAPlMiTy9cumuyvwQdArW-Qwut7opZXHwlIbabRsjBodC-K6wEJ5UBD8Wfs5Nr4gYv5VvT6jt8rLOZwGGIi9BGZKFIvOtoCivNhuHey0r3HqG~aHq6dXxpwO~xGk7JEzoYmVAUl86wRH6hJc2Lp2AzOtGayY1v5UopnmV0feq2ldkxBhgx7pJBujQUNyshOzOjch1rOEnqzallVrQ0-5T1fm0mUVRr-8E~TXdc6279TRTQdCRuZESw6HQtmLaCFOFUapMfgSLMW~agMWvhqcKTXuCA9mT0rztgqlh6YA__",
+    "cardTitle": "HR CAFFE тема: Потребата од зајакнување на соработката помеѓу HR одделот и вработените",
+    "category": "HR кафе",
+    "description": "Гостин-говорник на настанот ќе биде г-дин Благоја Ралповски, Председател на конфедерацијата на слободни синдикати на Македонија (КСС)",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на овој HR кафе настан е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "5",
+    "date": "2024-10-04",
+    "mkDate": "4 Октомври, 2024",
+    "mkDayDateMonth": "Петок, 4 октомври",
+    "link": "hr-weekend",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/16e2/0666/2b3c3031fb9c04e2c2a2dbe0ef345f6b?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mqNuPC7J993Bp~WXtHGmyGdhM0G~TDAT3gRyqfpJlFdrH~4wX~RPlQc-g2CkUOqDVgGp0ieguoTWsrO76C0g-OCS033UJetZ6A~6CJQyegM0MBEd8XFFI~yOmxH~-AfuDxFJZXazeGbamQIFIqcaSffTeDPDXnjnzdhrpnU5tsSPJcWJFK8MnccUV58X2mqc96T5mgi5NRCaZUplXwf41mcBSY8K4iWGHjrIpIzmhz6Yc~~7xqYQWe0D0OkpSdiG6CPUAzPr9VduF52FjESQO1HfANa9O62fB-iPMIBs0NUR9P1paL~FCP1iL~YARu7TGwWQDA15y4tjq3U50BdmoQ__",
+    "cardTitle": "Равнотежа меѓу работа и приватен живот",
+    "category": "HR викенд",
+    "description": "Започнете го викендот со утринско кафе и дискусија за тоа како да постигнете подобра равнотежа меѓу работата и приватниот живот.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на овој HR викенд настан е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "6",
+    "date": "2024-10-15",
+    "mkDate": "15 Октомври, 2024",
+    "mkDayDateMonth": "Вторник, 15 октомври",
+    "link": "hr-weekend",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/6952/e033/ff43ab3ba0cb89d057a427d62d046840?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mVQg1eDxsZtDbwebIFnI5a3Yb05Iw4~fGDw2n3~eGWyzYYovzPxIKCx8I0Wl5h-vHQqrJBMUNhiiVwdyTB0Mzf-lN8X2lxuTlkPb9qTWGZNMxVUw9YVqVFErmrftpPWLEpbZPcgZtxHZiSr1WO~ipIdNoEWWzr1T9EKZ25PQlqClR2eDQ1wKaAEiUelPEs-E4QBL0eUTlgeuo2V43AqKblNIjLHc-UjUdNq6P7598TVcZYNFX0p6igvSfRZSaDZvPliX3laGVLa-O9S6dZoyfkGteMzXC1XwEj7lp5o2yxFIoKmVxBhTXusfuD2eLU5aZwcRntz5gDvrX~9CH7FkIQ__",
+    "cardTitle": "Мотивација и инспирација на работното место",
+    "category": "HR викенд",
+    "description": "Дружете се со колегите додека дискутираме како да се одржи високо ниво на мотивација и инспирација на работното место.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на овој HR викенд настан е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "7",
+    "date": "2024-10-20",
+    "mkDate": "20 Октомври, 2024",
+    "mkDayDateMonth": "Недела, 20 октомври",
+    "link": "hr-weekend",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/6d92/b418/0766b96346339477fd1d9692ba525b7d?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mvqR1FyxMZ1VNo79PrZ9Ya5794qV7ZSwDYfj3GMDd05QIeqgDleR-OBk-uFBz9t7nMpTmnSjRa5WcD08DnHA8Sutcs-DKNfO6O3ePWKKEGBy3EnCjZ7ba6-sPxAvuZa7t9D7~Mxgc87vjDnksCnxKQJsv1uYmnMd2YKZewFJNwXFJJY-bK~c1zlxlcgCC8AmDYCgkzyvrELvRrVjMnDMpfk3EvJ-lt~PpQ35tPxWTBaKWJjVmhtILHKvE9VlRKr-bKwb~mF-aSM4UAizrlhwRd3FwQIwsa4dP07W9PEEvVGfNZQdVh-UGmEGT4DBBSAe95jSvP3DTMH8Xw0WdCpqOA__",
+    "cardTitle": "Ефективно лидерство и тимска работа",
+    "category": "HR викенд",
+    "description": "Споделете идеи и искуства за ефективно лидерство и тимска работа додека учите нешто ново од вашите колеги.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на овој HR викенд настан е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "8",
+    "date": "2024-10-30",
+    "mkDate": "30 Октомври, 2024",
+    "mkDayDateMonth": "Среда, 30 октомври",
+    "link": "hr-weekend",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/b006/4a4e/3973e272f929f2fba094ecb6e02a44bb?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PG7Uk0LdZOuiAIHrbKwE60eKERNC5M4qX1ySk9rm-ujFybP2uP63-gczlQozckWktHlSHaLSYZBmQJPsx9EhsgKa2XYbKMf~dFNjHsuv0JUfhKmnidIvwMcyth3M9Ovd8khu1bVyVjyVAURxgVdS6c6mLsvqI~K~5ul6JEEX94U~F7PZejC5dd097wh2bRTOGGI3m4VOf4ggUDa9E4fL~yeHDdr5jjexMOphigRoshCxvLzA75N0l3Fi95LFleNyKPY7OWVQG3U4mZpSh8Gxu7v2w5xm7VNOsMoHtUoD3XbTX-Krs5waycrWHgzjB53cj5si6ONyqbF8PCUyCWNZmw__",
+    "cardTitle": "Управување со стрес и ментално здравје",
+    "category": "HR викенд",
+    "description": "Научете техники за управување со стрес и одржување на менталното здравје на работа.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на овој HR викенд настан е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "9",
+    "date": "2024-11-02",
+    "mkDate": "2 Ноември, 2024",
+    "mkDayDateMonth": "Сабота, 2 ноември",
+    "link": "hr-webinar",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/4a10/2dca/319aea279621635b2cebfb6c467c8cd2?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oGn5PMd-csIXG1BH6xgpN4N7SxgJBiDxVrmNpSFe-Lt94UcdvuWQkQXpc1cHyGNW6AQPAAtkRRfBkIPeLUCt4xk66SYVqxDgFOU05n8Ii9Vo8YfRcge9cdZ6KjnscAn-W~Wg-50~1EosjWdMW8p2p9CfQI~6IjKk3afgzzYVbeeMq8~EfyvF78IEjiKDtzsbKPz3mJHwqDqK8SOulA2F5kVMZpWB9AGCZufa0MBALzznXnDMiZHV-0wAM3U0-HaCpYYOT~7AzNRe7bl99MZWXNXr4ryGrOMivvRZQx54FD35c~Y0-036dsyfD1JVFzIQaO4fwKLfL1OIiP4jkw7YUA__",
+    "cardTitle": "Вебинар за регрутирање и задржување на таленти",
+    "category": "HR вебинар",
+    "description": "Дознајте ги најновите техники и стратегии за ефективно регрутирање и задржување на врвните таленти.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на овој HR вебинар настан е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "10",
+    "date": "2024-11-10",
+    "mkDate": "10 Ноември, 2024",
+    "mkDayDateMonth": "Недела, 10 ноември",
+    "link": "hr-webinar",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/dfc9/1454/6befab8a24feed5ccf7830ae8a33aed7?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jE5P38-5qmI0R-ZucNt~kx4GrZ5LaKkmXDijfWSA26CJzYBQeSJ8LKc5clktZooCoXTL~SC6sAEFX9qXt9Q~K5zeeaKg4IvS2duWXp37vueH~si46BGkpNkbiKNiLeFq-fNDLfpWDmTZc6swwGzK0~LVn05t18004ulQFNIpA8jt~r5gCelbP9LW4HbUO-HyvrZP2tmReZO4P7dn8WtJvEIpdTleJStOQeRTOD1gFVvJBUaQp~UaXtF40LzsUlmWPahGuDm012DmklLbfar4j2pAYk-W9A7kEj1wohwEZoa25eMHuCxwPoP1DZ2TJd4t9suqSxG5SaEogjBuIwZW9w__",
+    "cardTitle": "Вебинар за законска усогласеност во HR",
+    "category": "HR вебинар",
+    "description": "Придружете ни се за да научите за најновите законски регулативи и како да обезбедите усогласеност со законите и прописите за човечки ресурси.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на овој HR вебинар настан е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "11",
+    "date": "2024-11-20",
+    "mkDate": "20 Ноември, 2024",
+    "mkDayDateMonth": "Среда, 20 ноември",
+    "link": "hr-webinar",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/da41/078a/db1bbb373066fbdbb5db05faac0e8389?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WzLNNn9KqGYJFIvm8t~68VHon3DWvdugYT1htzwx5EtGrAwBfdDdrii2jsUwrmkUvJPgJH5njQDHg6LTmQZRd0Q4WlH~f4xQ8EbqvqXF33kFyjHnI32vxe1McymVbuk1juUd87393U8B7lJLN5Df2hdit4EIM1wJ2dNsJFuLFU-y55juIrktsWfFZcjJ1KmJe2dS3AziHPZ2FDys8CGiTQzEYwEI1GtYtY5TQIMx5MVR-pSo1CJlrdE6iOIztQGvZWKufQh9dt8GcCdd0i2z2Anj6UqpKjeIPmIY2Rz8LtRLv2mc4Qghby0g-wYqzdkdQPjlImzWL9QZNXSk6vea4w__",
+    "cardTitle": "Вебинар за управување со перформанси",
+    "category": "HR вебинар",
+    "description": "Како да поставувате јасни цели, да вршите објективни оценки и да обезбедите конструктивен фидбек за подобрување.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на овој HR вебинар настан е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "12",
+    "date": "2024-12-03",
+    "mkDate": "3 Декември, 2024",
+    "mkDayDateMonth": "Вторник, 3 декември",
+    "link": "hr-webinar",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/3e4b/30df/76db9d150b189358e4793e351ba6a0c2?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CcXDvyRt3Sq1TLzVgYvNCHv1haoSplNVtIayVLIfO7ndEdUIAUBS2TY2-3QRcI7NSA6dHjh8xe-DX9u0rGF7avIRnk4sxhSekiddW07FXLqic9PQuztVichXD2iiQuahDGj3THno1K8dW6ld4hxab6g~6ph7ADl5CJfo2g7McGJM8AZPMxwOZkk8Iw8-2I-wfjvfMR29HP-9L~rmwSzEEsMey5hwvYsdYy1SlYu5sYzaosE1ebgwJWrvIaQRR40XSXlpqoVCCMWrCGarHZQwE8wnhCpgkNdaVVEVJoHuZcbtTlofwjj930hql~gFTDmx6prh0rXWaPrcoxUt3hl3BA__",
+    "cardTitle": "Вебинар за дигитална трансформација во HR",
+    "category": "HR вебинар",
+    "description": "Како новите технологии го револуционизираат HR секторот. Овој вебинар ќе покрие теми како автоматизацијата, AI и анализа на податоци во HR.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на овој HR вебинар настан е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "13",
+    "date": "2024-12-09",
+    "mkDate": "9 Декември, 2024",
+    "mkDayDateMonth": "Понеделник, 9 декември",
+    "link": "hr-conference",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/e64e/3e30/3653ed2ec23e8c3d747a57b18bfc4dd0?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UiUh8VGIOCdhGaac87LVyycN8Y5dM1a1Mvxn-JMY0kD0~raMg2ui~NSyyaN8ST9FYtADDyRZk0uaCUoZcndyoUTWg18paGqYOApXzzbqrVeAXE1rgBYQGGZaXWXC51~ZNRkuvuePxC~AV1zbYQeyEnw9hDNvqb1~xpPcwYSOnnAc3yplZSBrsvRBcqy~qF82dF3Hy~DCikugAVsxkdQym~sLhY9tQCFpzj18V52On7OF35gTXnwrB7Xc4ewaoGfIxzMf6blfWb6Rn30FchdxhCK8KS0K4CiFRAy4QFuQQ982qwEBhoqEWF5Yg07PTMuM5BvhJE2zIAEPjhbD~3GKhQ__",
+    "cardTitle": "Конференција за иднината на работата",
+    "category": "HR конференции",
+    "description": "Трендовите кои ја обликуваат иднината на работното место. Придружете ни се на оваа конференција за да дознаете за новите модели на работа.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на оваа HR конференција е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "14",
+    "date": "2024-12-13",
+    "mkDate": "13 Декември, 2024",
+    "mkDayDateMonth": "Петок, 13 декември",
+    "link": "hr-conference",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/370a/71c6/2eab844ad09245cc5cdf2bda83546d49?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gXsmQzqZgfAxb6EgUPGGrt-Oh5x4SPI4jc-Dzrrg4uHdI76XDPypuEYEpx-IDPpb4apCrK42J3HjXLazEtNfB6Tr8-bkGjyIz4azZRoIcRuttIwsPoMEVTajS2g8AJqMEqSl85yCnU2Do-JD6Yh21mOIu8D0AXghPUXGZEJ-3qAQr1hbtBoMy3Dwg8isiVR-jVwlZm-gzQREsNedu1KBvOIcg6vVO8wNBpSU7aa4vvCukME1qrIIq247sWB-vXIFREyY0yG29nucgNegX5DTwafXf6LXDHthvDD7nmbaNfZZnBOZ0Cd4lnmFz0Y0Nexhpit3VHG5~lSarVrRFZAHLw__",
+    "cardTitle": "Конференција за HR иновации",
+    "category": "HR конференции",
+    "description": "Присустувајте на оваа конференција каде што ќе ги откриете најновите иновации и најдобри практики во HR.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на оваа HR конференција е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "15",
+    "date": "2024-12-16",
+    "mkDate": "16 Декември, 2024",
+    "mkDayDateMonth": "Понеделник, 16 декември",
+    "link": "hr-conference",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/ee75/0f47/ca1f25d030c612f58f27e86c27e5a12d?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZLR0vIfl9O9b4U69fjIKiStQvfC85jTt9gMdNVreTCcHY6G54xZsM77pBsfG7WfLPQTPygf-lo965N64s6e5S-M697nHTwtJNSUk0GdGYbzgDJXPk3j7TX6I2OQi5YeYmpe9XcGec6~YsnLGbXv0uuPP0vP4cBQxvakxz2EZ-bVKt1GjL8734MNfgbL6pbaDX4XBhKc8micyNShF1eIRthk1yf90b0b~DgimolraNyMzBelzfBMuYtqsA70f1DckDSZX~AFQA-~CYqewNpMEPiCiNRmaabB5L4nNq5ZGcepivPTQ49jkaasIQQQcNhdoVkcD8LIB6vlk4aKHgtIuoA__",
+    "cardTitle": "Конференција за управување со таленти",
+    "category": "HR конференции",
+    "description": "Семинар каде што ќе научите како да ги идентификувате, развивате и задржите најдобрите таленти во вашата компанија.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на оваа HR конференција е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  },
+  {
+    "id": "16",
+    "date": "2024-12-22",
+    "mkDate": "22 Декември, 2024",
+    "mkDayDateMonth": "Недела, 22 декември",
+    "link": "hr-conference",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/af07/d68c/b1199932693ce3ae2b9d53b7a402914c?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iQoHt0rvOVXgeW6B0hkV-eu16F1HH71ag~4HfJv23mpQrOucAI6-bgpyzgdy6B5bOOxWfvSRbqmIQMcFsiS6XzDCE6JkFRDWYZNXxNLX7ktqFsaexc4VsLycCDLR6w4CM8QTVY1PL7LyiG4e-Lv0eooCIhr54ZvryQsFTLfmJs5NcT0nmihQAQ9ITUYH2~RfHIsvGvET37NTdEBn2tEDCX7S6ybn1FHzcZ-K89Yh3gZcXsH3GK~a2Doxq7d23k9ztPrwJvOPbzU6mH4IE5pwKMhhhfGyzA0ybfDXpU4HKji10twJwxCle0nOzN3kNa6Wv6kejX7CX0KxXIz~8HlIcA__",
+    "cardTitle": "Конференција за дигитална трансформација во HR",
+    "category": "HR конференции",
+    "description": "Откријте како дигиталната трансформација го менува светот на HR. На оваа конференција водечки експерти ќе ги презентираат најновите технологии.",
+    "readMore": "Прочитај повеќе",
+    "purpose": "Опис: Овој настан има за цел да ја истакне важноста од тесната соработка меѓу HR одделот и претставникот на вработените (синдикатот) во организациите. Преку овој настан ќе ги разгледаме најдобрите практики, предизвиците и можностите кои се јавуваат при заедничката работа на овие две страни, со цел подобрување на работната атмосфера и организациската ефикасност. Учесниците ќе имаат можност да слушнат од експерти во областа, да дискутираат за своите искуства и да пронајдат нови начини за унапредување на соработката.",
+    "mission": "Целта на оваа HR конференција е да се создаде платформа за отворена комуникација и размена на идеи која ќе придонесе за подобра соработка меѓу HR одделот и синдикатот, што ќе резултира со позитивни промени во работната организација."
+  }
+],
+
+"carouselEvents": [
+      {
+        "id": "1",
+        "imageUrl": "https://s3-alpha-sig.figma.com/img/aeaa/6bea/b62735cf345d1578a4028c13d61fc7da?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZlKLIZt9aQDsCwXPc6mEfRQ1dFGJl7ta51ggcls21qFnEaCu~ZA552ryXh~IwAIbSm3dKLJfYGRONC87JmL4pyeg6-1HmkPeLHc1JumqqradMuJiFnrGT5Uk0g8tLkPDv2jB3AILv0WHpa4JJfMJUVpfz0~u7udCcPz94x8U1w68GG8U~41zN0SgTnGXcajA4vCawO1zBUiuNm1xZIzcSAqjD3JTNbfRZLekq-azVoQp8P2xLLCHDYZQ6dFghg88x1k6fY0RFyaD-HyzVGrdFi-8OHIYUTUJiNo78eyKJQLhgdhNTYIefWpuThX9zqM81YyKrBQws7t-6R4pguGBGA__",
+        "cardTitle": "HR кафе",
+        "description": "Развој на кариерата",
+        "month": "Јул",
+        "day": "25"
+      },
+      {
+        "id": "2",
+        "imageUrl": "https://s3-alpha-sig.figma.com/img/511f/2d6e/5460bea819553d574878542459f8e777?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jOrwUQK99HsXIvjs~zUl0xXg5bl8BtXw5PMf0rVW8STXoxaUZNBGRlCJMqFqRK3TKsIutiz7XPbAYbMDTpJHcMVHEciKAlIJBSz2d4N8BTNbdCnrf~D-mQGBuK~1k~8Qqa8xvm-yPX9InsPFwKZjalNZrn3cjwN45XJBjmvboJoAaMB33gPUNlQovD2b6kXPntP4lqa5pqAeaR2Li7nOb0xS1bwSq9KFZL9GZQYdSR8fBsFXzx7E6hVAanE43iKsx8CqU3DFpGZtZLIGyayEvBhFKBQVzdkp2KOe6wYGuBtuNzQ0DaXL5usMnedYxUbrDiqZazKlMCXUf1bt6~hUCA__",
+        "cardTitle": "HR викенд",
+        "description": "Рамнотежа меѓу работа...",
+        "month": "Авг",
+        "day": "09"
+      },
+      {
+        "id": "3",
+        "imageUrl": "https://s3-alpha-sig.figma.com/img/bc3c/dd9f/bea06eec96c75b10b6a933f4413880b2?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YtrZOvQ50RXDuZJIpJpyzptlQLX-pUiOIp~xIgu6Uk1MLjeeFG0QfQYtVgIol2TRXKacdaUR3cRtx7jLTwuHa~6ZN6vdNdUV-7zPage1legPyfaFjtXButcq4wln4y5gY6MES-e3Vwa72IUfj5pPonggBqNv1MfODlxSmp65dYXZ0VNBeiuRRkT1gRfkBuQVv7ap3D9MUGXq8aPTh~8~W9SBaC6boBP9b7Ue~BdozsLQtVsnSs0uHtkgzraWeIPriGzdVfuuuQlYVUZv118KpWL0LFjmGpQ8NKII4VVDjnuoFYn~Qq--8wFolc1QBCPqmZrBvoY-EcdxBYTPcvg5BA__",
+        "cardTitle": "HR викенд",
+        "description": "Управување со стрес...",
+        "month": "Авг",
+        "day": "16"
+      },
+      {
+        "id": "4",
+        "imageUrl": "https://s3-alpha-sig.figma.com/img/31b4/a58f/4486343b564b6ce2bf38d8757d233362?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ixXAqk9Ix81KzO5j3Q9ZgDQ4JGR-SwXI~YwTTPMP9I~7HMJEa82B4glp6m3wLW4Zmqe460EYfxLKgRp~vofOFoq78qIaRrvstSAOefdYW1PkatiXH2XAjmfqnQKB9CweI2OklIUakgZiPt2kbOHNH6Y2YhO6y9SWZ3L2op4gIiaqYCO34hOpuyJt7nqNdvqq44KI6a9SeiXFluslFykOmqcEaM8kLc4eyMhyjVAiPGcbzRyZTH8KR4OmdAEwujIPOBR6dbNS5i0ii44sY5MZDUXQPekdLXMZ6NF2KzDx8pT6UCGuS9LMifIbVH1MrC4sRmrOzNauguJ~qEyxiPBcLg__",
+        "cardTitle": "HR кафе",
+        "description": "Вештини за комуникација",
+        "month": "Сеп",
+        "day": "03"
+      },
+      {
+        "id": "5",
+        "imageUrl": "https://s3-alpha-sig.figma.com/img/3a73/3440/0874933a29ed52ed4e8ebbdda4b5f093?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e-YEqGp7hoa7Ikt95bI3LRipP9QjQrR-cLJgGHbT3tTBTtBmDG4lWvYPwqRRbrSLg9tKGSpOobUzq8g9LEyHkYLlhVY9JPEhf9duf8dGSNEbxWJrXp6~d4xogsd2--EHn4XyOv4ZcKE6U2pndJoDy3DuUrWidfN5yWaKRu~LErcYg0Te1KHVUlXDTwzeY00SH2KMcCH-Hj15ljLGOPHSW1CK6uT1T1ZBcSjwXRRfJaaNLtJQbbqSNWA~MXwKDZehhNwf6qDDSBkv8fzLj2QdN2r0Ecq6ymI1E4i5Nxa9fTBnILSAFTN6FPqrkN4ppfsMoS46liLsu~JfeIFQN-TqgQ__",
+        "cardTitle": "Вебинар",
+        "description": "Законска усогласеност во HR",
+        "month": "Сеп",
+        "day": "18"
+      },
+      {
+        "id": "6",
+        "imageUrl": "https://s3-alpha-sig.figma.com/img/0ef4/8ab8/2f9ab26babfe0ada74066367c7f2fc4d?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fvs08IxAESrsKb47ihrSpGaPkf2lSSjN4CHtEYDfK2gV0nl8M~upav-yI~1SW-mqCQ4RIM1x8dCmzo-Htfvu6Fl56xTy2gG7xTzVHil7sUoJTx2ys2hnMtDT1Lp7uFy-STUsz0d40k~vkshTmj8UMZPvrNaG7C4fQ4QWYyyceU6w44VQ9xEx7c0L8A4BfK4VstA8SGsaVL4fKSlKIe31o4wbjZlmUnaoZP-JJHWiUGLQbWrNigN2deR0HodmJavjUJsT9LMiEr6VSR1LCgvcYBE7CcoJYaL5pCBl~wt40cOS4LPOtHqzufX3zv8Q-5SVBAza9CUhayxYvcRrtgWWbw__",
+        "cardTitle": "Конференција",
+        "description": "Иднина на Работата",
+        "month": "Окт",
+        "day": "05"
+      },
+      {
+        "id": "7",
+        "imageUrl": "https://s3-alpha-sig.figma.com/img/7ecd/b498/64829e1c32537fdb30f8c1f31dc686af?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E~vD7fAyEWsNQ7ntKtLgHlz29hieA-YdoV1-t6aAfWCxQueJH6~sqF2FidB96kaaN-cSy6f5BLb9PfQAGN3OsM3RwXkB-zw1PXMzWbLqC6pS4-TP7qcFwz5rebl3Ug-u4nINLYO9fzJuwpK053~fvTK6Aow1a3p1nTfGuRFm3HDunip~1AGS8XHcBzKJYBSldGMlQ7v5L51Voy6GZBf62aEgqXXlYFlQCUSCbuFelLttDDIF2o0YkXPJISkd4LS93CVEm9Pwf5brTd3LgVYUn6VQmiCNaAhKGcKypEhUMy4xSR1Q8GDQD8EdlqyvD17cNhTkvP70LBzwijXjJ28l7g__",
+        "cardTitle": "Годишна конференција",
+        "description": "2024",
+        "month": "Дек",
+        "day": "24"
+      }
+    ],
+
+    "aboutPageCards": [
+      {
+        "id": "1",
+        "avatarImage": "/images/about/mhra_board/darko_petrovski.jpg",
+        "name": "Дарко Петровски",
+        "position": "Претседател на МАЧР"
+      },
+      {
+        "id": "2",
+        "avatarImage": "/images/about/mhra_board/hristina_lozanoska.jpg",
+        "name": "Христина Лозаноска",
+        "position": "Вита Институт"
+      },
+      {
+        "id": "3",
+        "avatarImage": "/images/about/mhra_board/ljupcho_eftimov.jpg",
+        "name": "Љупчо Ефтимов",
+        "position": "Економски факултет - Скопје, при УКИМ"
+      },
+      {
+        "id": "4",
+        "avatarImage": "/images/about/mhra_board/ana_saltirova.jpg",
+        "name": "Ана Салтирова Давидовски",
+        "position": "АМСМ"
+      },
+      {
+        "id": "5",
+        "avatarImage": "/images/about/mhra_board/ana_tomovska_mioska.jpg",
+        "name": "Ана Томовска Мисоска",
+        "position": "Универзитет Американ колеџ Скопје"
+      },
+      {
+        "id": "6",
+        "avatarImage": "/images/about/mhra_board/ivana_dojchinovska_stojanovikj.jpg",
+        "name": "Ивана Дојчиновска Стојановиќ",
+        "position": "НЛБ банка"
+      },
+      {
+        "id": "7",
+        "avatarImage": "/images/about/mhra_board/melita_sekulovska.jpg",
+        "name": "Мелита Секуловска",
+        "position": " Економски факултет, Универзитет Љубљана"
+      },
+      {
+        "id": "8",
+        "avatarImage": "/images/about/mhra_board/oglica_spasevski.jpg",
+        "name": "Олгица Спасевска",
+        "position": "Шпаркасе банка"
+      },
+      {
+        "id": "9",
+        "avatarImage": "/images/about/mhra_board/elica_percinkova.jpg",
+        "name": "Елица Перчинкова",
+        "position": "АЕК"
+      },
+      {
+        "id": "10",
+        "avatarImage": "/images/about/mhra_board/zorica_popovski.jpg",
+        "name": "Зорица Поповска",
+        "position": "Сенсум коучинг и тренинг центар"
+      },
+      {
+        "id": "11",
+        "avatarImage": "/images/about/mhra_board/marija_petrushevska.jpg",
+        "name": "Марија Петрушевска",
+        "position": "ТТК банка"
+      }
+
+    ],
+
+  "about_page": {
+    "main_title": "МИСИЈА И ВИЗИJA",
+    "first_title": "Македонска Асоцијација за Човечки Ресурси",
+    "first_content_block": "МАЧР е стручно, невладино, непартиско и непрофитно здружение на граѓани формирано на 22 април 2009 година, заради вршење на дејности и активности поврзани со развојот на работната сила, промоција на управувањето со човечките ресурси, како и унапредување на професијата управување со човечки ресурси.",
+    "mission": {
+      "title": "Мисија: ",
+      "body": "“Мисија на МАЧР е унапредување и развој на професијата менаџмент со човечките ресурси”."
+    },
+    "vision": {
+      "title": "Визија: ",
+      "body": "“Визија на МАЧР е развој на луѓето и организациите!”"
+    },
+    "first_image": "/images/about/image_8.png",
+    "second_title": "Цели и задачи:",
+    "second_content_block": {
+      "first_paragraph": {
+        "title": "Подршка ",
+        "body": "на највисоките идеали во областа на управувањето со човечки ресурси и посестрано прифаќање и ценење на професијата;"
+      },
+      "second_paragraph": {
+        "title": "Признавање ",
+        "body": "на управувањето со човечки ресурси поради неговиот придонес за успешно работење и зајакнување на способноста и кредибилитетот на професијата управување со човечки ресурси;"
+      },
+      "third_paragraph": {
+        "title": "Стремеж ",
+        "body": "да бидеме водачи во развојот и промовирањето на добрите практики во професијата управување со човечки ресурси, што ќе ги применуваат и професионалните членови и нивните колеги и да ги поставиме основните национални стандарди за управување со човечки ресурси; Лобирање кај владата и поднесување на документи во име на членовите и трети лица."
+      }
+    },
+    "second_image": "/images/about/image_6.png",
+    "third_title": "Претседател на МАЧР",
+    "third_title_name": "м-р Дарко Петровски",
+    "third_content_block": {
+      "first_p": "Дарко е еден од основачите на МАЧР, каде придонесуваше како член на УО, претседател на Надзорниот одбор, генерален секретар и уредник на електронскиот весник на МАЧР, а на последното Собрание во декември 2018 беше избран за Претседател на Македонската асоцијација за човечки ресурси. Дарко помина речиси 9 годишен работен ангажман како раководител на одделот за човечки ресурси и организација во ЕВН, еден од најголемите работодавачи во Македонија. Пред тоа, тој беше на чело на Канцеларијата за економски прашања при Австриската амбасада во Скопје.",
+      "second_p": "Дарко е основач на Талент бизнис инкубаторот Степ-ап кој нуди програми за стипендирање и развој на таленти, за практикантска работа и консултантски услуги во областа на стратегиски деловен развој, организациски развој и менаџмент со човечките ресурси. Тој е и ко-основач и партнер во Динамик Консалтинг и е вклучен во проекти како менаџмент консултант во различни области.",
+      "third_p": "Покрај професионалниот ангажман, Дарко бил и е сеуште активен во повеќе организации како Организацијата на работодавачи на Македонија, Националниот економско-социјален совет, Локалниот економско-социјален совет на град Скопје, Техничкиот комитет за менаџмент со човечките ресурси (ТК42) при Институтот за стандардизација на РМ, Националниот совет за претприемништво и конкурентност, советодавните одбори на Универзитетот за туризам и менаџмент во Скопје и на Универзитетот Американ Колеџ Скопје.",
+      "fourth_p": "Дарко магистрираше економски науки на Економскиот факултет во Љубљана и е магистер по бизнис администрација и организациски науки, со специјализација во менаџментот со човечките ресурси, а исто така е дипломиран машински инженер и автор на повеќе стручни и научно-истражувачки трудови."
+    },
+    "card_section_title": "ОДБОР НА МАЧР",
+    "third_image": "/images/about/image_7.png"
+  }
+
+}

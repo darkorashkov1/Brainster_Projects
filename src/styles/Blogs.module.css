@@ -1,0 +1,58 @@
+.blogContainer {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin: -3rem auto;
+}
+
+.leftContainer {
+  flex: 1;
+}
+
+.blogImage {
+  width: 326px;
+  height: 280px;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.rightContainer {
+  flex: 3;
+  margin-left: -3rem;
+}
+
+.title {
+  font-size: 50px;
+  color: #0f294a;
+
+  line-height: 52px;
+}
+
+.title span {
+  color: #e87b22;
+}
+
+.description {
+  padding-top: 1.5rem;
+  font-size: 17px;
+  color: #21383e;
+}
+
+@media (max-width: 1440px) {
+  .rightContainer {
+    margin-left: 2rem;
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .description {
+    padding-top: 2.5rem;
+    font-size: 12px;
+  }
+}

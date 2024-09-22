@@ -1,0 +1,39 @@
+.container {
+  margin: 4rem 0;
+}
+
+.dottedBackground {
+  position: relative;
+}
+
+.squareCover1 {
+  position: absolute;
+  top: -60px;
+  left: 220px;
+  width: 275px;
+  height: 256.757px;
+  transform: rotate(-26.978deg);
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.squareCover2 {
+  position: absolute;
+  top: -60px;
+  left: 1005px;
+  width: 275px;
+  height: 256.757px;
+  transform: rotate(26.978deg);
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.rectangleCover {
+  position: absolute;
+  top: -5px;
+  left: 380px;
+  width: 750.512px;
+  height: 239.479px;
+  transform: rotate(-0.601deg);
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}

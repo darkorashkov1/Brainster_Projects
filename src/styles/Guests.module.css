@@ -1,0 +1,271 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  min-height: 100vh;
+  padding: 20px;
+  margin: 30rem auto;
+  font-family: Poppins;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.firstContainer h1 {
+  color: var(--Header-Text-Color, #0f294a);
+  text-align: center;
+
+  /* Header */
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+  margin-bottom: 3rem;
+}
+.firstContainer p {
+  text-align: center;
+  color: var(--Body-Text-Color, #21383e);
+  text-align: center;
+
+  /* Main body */
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.346px;
+  margin-bottom: 3rem;
+}
+
+.middleContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Space between cards */
+  margin-bottom: 2rem;
+}
+
+.cardTop,
+.cardBottom {
+  position: relative;
+  width: 648px;
+  height: 655px;
+
+  object-fit: cover;
+}
+
+.cardTop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 500px 500px 0px 0px;
+}
+.cardBottom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px 0px 500px 500px;
+  object-position: top;
+}
+
+/* Card Button */
+.socialRight1,
+.socialRight2,
+.socialLeft1,
+.socialLeft2 {
+  position: absolute;
+  width: 292px;
+  height: 95px;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: black;
+  padding: 1rem;
+  border-radius: 50px;
+  filter: drop-shadow(0px 10px 10px rgba(47, 65, 88, 0.2));
+}
+
+.socialRight1:hover,
+.socialRight2:hover,
+.socialLeft1:hover,
+.socialLeft2:hover {
+  box-shadow: 0px 16px 24px -6px rgba(16, 24, 40, 0.35),
+    0px 6px 8px -4px rgba(16, 24, 40, 0.25);
+}
+.socialRight1 {
+  top: 225px;
+  left: -200px;
+}
+.socialRight2 {
+  top: 25px;
+  left: -200px;
+}
+.socialLeft1 {
+  bottom: 25px;
+  right: -200px;
+}
+.socialLeft2 {
+  top: 325px;
+  right: -200px;
+}
+
+.socialBtnRight,
+.socialBtnLeft {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  background-color: #e87b22;
+  width: 84.07px;
+  height: 84.07px;
+  border-radius: 50px;
+}
+
+.socialBtnRight {
+  right: 6px;
+}
+.socialBtnLeft {
+  left: 6px;
+}
+
+.socialBtnRight img,
+.socialBtnLeft img {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  bottom: 20px;
+  left: 19px;
+  width: 46px;
+  height: 46px;
+  transition: transform 0.7s ease-in-out;
+}
+
+.socialLink:hover {
+  transform: scale(1.3);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.socialRight1 span,
+.socialRight2 span,
+.socialLeft1 span,
+.socialLeft2 span {
+  position: absolute;
+  top: 50px;
+  opacity: 0.6;
+}
+
+.socialRight1 span,
+.socialRight2 span {
+  left: 40px;
+}
+
+.socialLeft1 span,
+.socialLeft2 span {
+  right: 50px;
+}
+
+.socialRight1 p,
+.socialRight2 p,
+.socialLeft1 p,
+.socialLeft2 p {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 600;
+  top: 25px;
+}
+
+.socialRight1 p,
+.socialRight2 p {
+  left: 40px;
+}
+.socialLeft1 p,
+.socialLeft2 p {
+  right: 72px;
+}
+
+/* Last container */
+
+.lastContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.lastButton {
+  display: inline-flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 20px;
+
+  border-radius: 50px;
+  background: var(--Brand-Orange, #e87b22);
+  color: white;
+
+  /* Card DropShadow */
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
+    0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+
+.lastButton:hover {
+  background: white;
+  color: #e87b22;
+  transform: translateY(-2px);
+  box-shadow: 0px 16px 24px -6px rgba(16, 24, 40, 0.15),
+    0px 6px 8px -4px rgba(16, 24, 40, 0.05);
+
+  /* Trigger the animation */
+  animation: shrinkBack 0.8s forwards;
+
+  /* Adjust background and color on hover */
+  background: var(--Brand-Orange, white);
+}
+
+.lastButton:not(:hover) {
+  animation: expandBack 0.8s forwards;
+}
+
+@keyframes shrinkBack {
+  0% {
+    padding: 17px 45px; /* Expanded size */
+  }
+  100% {
+    padding: 17px 34px; /* Original size */
+  }
+}
+@keyframes expandBack {
+  0% {
+    padding: 17px 45px; /* Expanded size */
+  }
+  100% {
+    padding: 17px 34px; /* Original size */
+  }
+}
+
+.dottedGrid {
+  margin-top: 15rem;
+}
+
+@media (max-width: 1440px) {
+  .cardTop,
+  .cardBottom {
+    position: relative;
+    width: 468px;
+    height: 455px;
+
+    object-fit: cover;
+  }
+
+  .socialRight1 {
+    top: 155px;
+  }
+  .socialLeft2 {
+    top: 225px;
+  }
+}

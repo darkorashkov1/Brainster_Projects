@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+
+.container h1 {
+  font-size: 70px;
+  margin-bottom: 40px;
+  color: #e87b22;
+  opacity: 0.8;
+}
+
+.container h2 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.mhraLogo {
+  margin-bottom: 30px;
+}
+
+.socialLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progressBar {
+  width: 360px;
+  height: 12px;
+  background-color: #d1d1d1;
+  margin: auto;
+  margin-bottom: 100px;
+  opacity: 0.8;
+  position: relative;
+  border-radius: 5px;
+}
+
+.progressBar::before {
+  content: "0%";
+  position: absolute;
+  left: 0;
+  font-size: 12px;
+  bottom: -18px;
+}
+
+.progressBar::after {
+  content: "100%";
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+  bottom: -18px;
+}
+
+.progressBar span {
+  display: block;
+  width: 80%;
+  height: 12px;
+  border-radius: 5px;
+  background-color: #e87b22;
+  animation: fill 3s ease-in 1;
+}
+
+@keyframes fill {
+  0% {
+    width: 0;
+  }
+  80% {
+    width: 290px;
+  }
+}
+
+.sm {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.sm a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #e87b22;
+  border-radius: 50%;
+  margin: 0 12px;
+  opacity: 0.7;
+  transition: 0.3s linear;
+}
+
+.sm a:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}

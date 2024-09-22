@@ -1,0 +1,335 @@
+.header {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 30px 30px #dee1e6;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.header.scrolled {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styles */
+.logo {
+  width: 50px;
+  height: 62px;
+}
+
+/* Navigation Styles */
+.linksContainer {
+  margin-left: 5rem;
+}
+
+.linksGroup {
+  display: flex;
+}
+
+.navLink {
+  color: #0f294a;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  line-height: 32px;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+.navLink:hover,
+.navLinkActive {
+  color: #e87b22;
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  /* overflow: hidden; */
+}
+
+.group:hover .dropdown {
+  display: block;
+  opacity: 1;
+}
+
+.subDropdown {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 11;
+}
+
+.dropdownItem:hover .subDropdown {
+  display: block;
+  opacity: 1;
+}
+
+/* Animation for dropdown items */
+@keyframes dropIn {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Dropdown animation */
+.dropdownItem {
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.group:hover .dropdownItem:nth-child(1) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0s;
+}
+.group:hover .dropdownItem:nth-child(2) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0.1s;
+}
+.group:hover .dropdownItem:nth-child(3) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0.2s;
+}
+.group:hover .dropdownItem:nth-child(4) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0.3s;
+}
+.group:hover .dropdownItem:nth-child(5) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0.4s;
+}
+
+/* Search Dropdown */
+.searchDropdown {
+  width: 300px;
+}
+
+.searchInput {
+  width: 100%;
+  border: 0px solid #e87b22;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+/* Notification Dropdown */
+.notificationContainer:hover .dropdown {
+  display: block;
+}
+
+/* Dropdown Items */
+.dropdownItem {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  color: #333333;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.dropdownItem:hover {
+  background-color: #f3f4f6;
+  color: #f97316;
+}
+
+/* Dropdown Item Animation */
+@keyframes dropIn {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Dropdown animation */
+.dropdownItem:nth-child(1) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0s;
+}
+.dropdownItem:nth-child(2) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0.1s;
+}
+.dropdownItem:nth-child(3) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0.2s;
+}
+.dropdownItem:nth-child(4) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0.3s;
+}
+.dropdownItem:nth-child(5) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0.4s;
+}
+.dropdownItem:nth-child(6) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0.5s;
+}
+.dropdownItem:nth-child(7) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0.6s;
+}
+.dropdownItem:nth-child(8) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0.7s;
+}
+.dropdownItem:nth-child(9) {
+  animation: dropIn 0.1s ease forwards;
+  animation-delay: 0.8s;
+}
+
+/* Notification and Search Icon Styles */
+.notificationContainer {
+  position: relative;
+}
+
+.notificationIcon,
+.headerSearchIcon {
+  width: 20px;
+  height: 25px;
+}
+
+a .headerSearchIcon {
+  align-content: center;
+}
+
+.notificationDot {
+  width: 8px;
+  height: 8px;
+  background: #e87b22;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Language Switcher */
+.languageSwitcher {
+  color: #0f294a;
+  font-size: 16px;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+/* Join Button */
+.joinButtonText {
+  font-family: "Roboto Condensed";
+  padding: 8px 26px;
+  border: 3px solid #e87b22;
+  border-radius: 50px;
+  background: #e87b22;
+  color: white;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
+    0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  transition: background-color 0.4s ease, color 0.4s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.joinButtonText:hover {
+  background: white;
+  color: #e87b22;
+  transform: translateY(-2px);
+  box-shadow: 0px 16px 24px -6px rgba(16, 24, 40, 0.15),
+    0px 6px 8px -4px rgba(16, 24, 40, 0.05);
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .logo {
+    width: 30px;
+    height: 42px;
+  }
+
+  .navLink,
+  .languageSwitcher,
+  .joinButtonText {
+    font-size: 0.7rem;
+  }
+  .linksContainer {
+    margin-left: 0rem;
+  }
+
+  .linksGroup a {
+    margin-right: 0.2rem;
+  }
+
+  .notificationIcon,
+  .headerSearchIcon {
+    width: 16px;
+    height: 20px;
+  }
+
+  .joinButtonText {
+    padding: 4px 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navLink,
+  .languageSwitcher {
+    font-size: 0.8rem;
+  }
+
+  .joinButtonText {
+    padding: 4px 12px;
+    font-size: 0.8rem;
+  }
+
+  .notificationIcon,
+  .headerSearchIcon {
+    width: 18px;
+    height: 22px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .navLink,
+  .languageSwitcher {
+    font-size: 1rem;
+  }
+
+  .joinButtonText {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .notificationIcon,
+  .headerSearchIcon {
+    width: 20px;
+    height: 25px;
+  }
+
+  .linksContainer {
+    margin-left: 5rem;
+  }
+
+  .linksGroup a {
+    margin-right: 1.5em;
+  }
+}
+
+@media (min-width: 1920px) {
+  .linksContainer {
+    margin-left: 15rem;
+  }
+  .linksGroup a {
+    margin-right: 3em;
+  }
+}

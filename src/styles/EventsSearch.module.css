@@ -1,0 +1,177 @@
+.container {
+  min-height: 100%;
+  margin: 5rem auto;
+}
+
+.blogGrid {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.headline {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.filterContainer {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.filterContainer a {
+  display: flex;
+  padding: 11px 29px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border-bottom: 1px solid var(--Gray-4, #bdbdbd);
+}
+
+.filterContainer a:hover {
+  cursor: pointer;
+  border-radius: 50px;
+  color: #fff;
+  background: var(--Brand-Orange, #e87b22);
+  transition: 0.5s ease-in-out;
+}
+
+.active {
+  background: var(--Brand-Orange, #e87b22);
+  color: #fff;
+}
+
+.mainContainer {
+  display: flex;
+  gap: 30px;
+  margin: 5rem 0;
+}
+
+.firstContainer {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.rowContainer1 {
+  padding-bottom: 2rem;
+
+  padding-top: 0;
+}
+.rowContainer1,
+.rowContainer2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.card {
+  width: 65%;
+}
+
+/* Jobs container */
+
+.secondContainer {
+  flex: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("https://s3-alpha-sig.figma.com/img/c6cc/4eef/6c7277d1c079b2c541aabd1a661cc670?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AN3c7F8KNwacnl8gF4RaMdn3ycfssawDVJiqwaptJj3fser90cPZ1lqnNzM2R3doaQuNy2eZN0Kac3J656thLqxx2l0ObQ9FwYQEncgIDN3zXp1nObUkS5VOVlMWtjpAjycNwPOZEkfy934nreKBeiubIgOMHucO7PA1WuLUROehFzEOBZkcGj8d~NZWLYpAb8h-3uytd4xgv~014XCQCTBi8Db5Ofu0OFAeQRKTfgV1mcR9pq9XoCvBw8c8f51iP~yZwRuq92WevikOpvOIGUZO3JcAo8Ao9wtlCj0P9VquAF-Z4TyQ2RxjyOQO303km~4KvikCEawJrduIIIUn~g__")
+      50% / cover;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+  gap: 10px;
+}
+
+.secondContainer h3 {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.liContainer {
+  display: flex;
+  gap: 10px;
+}
+.hr,
+.titan,
+.lean,
+.sosv {
+  flex: 2.1;
+}
+.hrText,
+.titanText,
+.leanText,
+.sosvText {
+  flex: 9;
+  font-size: 20px;
+}
+
+.secondContainer ul {
+  margin-bottom: 3rem;
+}
+
+.secondContainer li {
+  color: #ffffff;
+  margin: 22px 0;
+  cursor: pointer;
+  margin-bottom: 2.5rem;
+}
+
+/* Logos */
+.secondContainer .hr,
+.secondContainer .lean,
+.secondContainer .sosv,
+.secondContainer .titan {
+  text-align: -webkit-right;
+}
+
+.secondContainer .hr img {
+  width: 28px;
+  height: 30px;
+}
+.secondContainer .titan img {
+  width: 43px;
+  height: 30px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.secondContainer .lean img {
+  width: 67px;
+  height: 26px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.secondContainer .sosv img {
+  width: 67px;
+  height: 26px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.categoryTitle h2 {
+  margin-top: 8rem;
+  color: var(--Header-Text-Color, #0f294a);
+
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 62px;
+  letter-spacing: -0.5px;
+}
